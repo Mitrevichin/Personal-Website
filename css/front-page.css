@@ -1,0 +1,16 @@
+.front-page {
+    height: 100vh;
+    width: 100vw;
+    background: rgb(255, 180, 0);
+    background: linear-gradient(78deg, rgba(255, 180, 0, 1) 21%, rgba(17, 17, 17, 1) 21%);
+    display: flex;
+    justify-content: center;
+}
+
+.inner-container-front-page {
+    height: 90%;
+    width: 95%;
+    margin-top: 30px;
+    background-color: brown;
+    border-radius: 20px;
+}
