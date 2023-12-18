@@ -10,29 +10,17 @@
 .inner-container-front-page {
     height: 90%;
     width: 95%;
-    margin-top: 30px;
-    border-radius: 20px;
+    margin-top: 35px;
     display: flex;
 }
 
+/********************************* LEFT SIDE *******************************/
 .left-picture {
     height: 100%;
     width: 32%;
     background-color: bisque;
     border-radius: 20px;
-    /* box-shadow: 0 0 7px rgba(0,0,0,.9); */
-}
-
-.center-intro-text {
-    height: 100%;
-    width: 63%;
-    background-color: blue;
-}
-
-.right-nav {
-    height: 100%;
-    width: 5%;
-    background-color: coral;
+    box-shadow: 0 0 7px rgba(0, 0, 0, .9);
 }
 
 .profile-pic {
@@ -40,4 +28,116 @@
     height: 100%;
     object-fit: cover;
     border-radius: 20px;
+}
+
+/********************************* CENTER *******************************/
+.center-intro-text {
+    height: 100%;
+    width: 63%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    color: var(--white);
+}
+
+.header-name {
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 34px;
+}
+
+.header-name h1 {
+    color: var(--yellow);
+}
+
+.header-title {
+    color: var(--white);
+    margin-top: -15px;
+}
+
+.dash {
+    height: 4px;
+    width: 40px;
+    background-color: var(--yellow);
+    border-radius: 20px;
+    position: relative;
+    top: 53px;
+    left: 190px;
+    align-self: flex-start;
+}
+
+.center-intro-text p {
+    width: 600px;
+    line-height: 2;
+    margin: 20px 0 30px 0;
+}
+
+.btn-more {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    left: -20%;
+    border: 1px solid var(--yellow);
+    border-radius: 50px;
+    padding: 18px 29px 18px 29px;
+    background: transparent;
+    outline: none;
+    color: var(--white);
+    position: relative;
+    z-index: 1;
+}
+
+.btn-more::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    right: 10%;
+    height: 100%;
+    width: 0%;
+    background: var(--yellow);
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    z-index: -1;
+    transition: 0.5s;
+}
+
+.btn-more:hover::before {
+    width: 90%;
+}
+
+.btn-more a {
+    text-decoration: none;
+    color: var(--white);
+    font-size: 14px;
+    letter-spacing: 0.5px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-right: 45px;
+}
+
+.btn-arrow {
+    background-color: var(--yellow);
+    height: 54px;
+    width: 54px;
+    border-radius: 50px;
+    position: absolute;
+    left: 76.4%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-arrow i {
+    font-size: 22px;
+    padding: 11px;
+}
+
+/********************************* RIGHT SIDE *******************************/
+.right-nav {
+    height: 100%;
+    width: 5%;
+    background-color: coral;
 }
