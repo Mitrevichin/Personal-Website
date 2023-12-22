@@ -33,7 +33,7 @@
 /********************************* CENTER *******************************/
 .center-intro-text {
     height: 100%;
-    width: 63%;
+    width: 66%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -59,12 +59,12 @@
 
 .dash {
     height: 4px;
-    width: 40px;
+    width: 41px;
     background-color: var(--yellow);
     border-radius: 20px;
     position: relative;
     top: 53px;
-    left: 190px;
+    left: 210px;
     align-self: flex-start;
 }
 
@@ -101,7 +101,11 @@
     border-top-left-radius: 50px;
     border-bottom-left-radius: 50px;
     z-index: -1;
-    transition: 0.5s;
+    transition: 0.4s;
+}
+
+.btn-more:hover {
+    cursor: pointer;
 }
 
 .btn-more:hover::before {
@@ -138,6 +142,64 @@
 /********************************* RIGHT SIDE *******************************/
 .right-nav {
     height: 100%;
-    width: 5%;
-    background-color: coral;
+    width: 2%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+
+}
+
+.right-nav ul li {
+    list-style-type: none;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(41, 40, 38);
+    border-radius: 50%;
+    position: relative;
+    margin-bottom: 25px;
+}
+
+.nav-links span {
+    position: absolute;
+    right: 25px;
+    padding: 13px 10px 7px 15px;
+    width: 130px;
+    height: 50px;
+    border-bottom-left-radius: 50px;
+    border-top-left-radius: 50px;
+    text-transform: uppercase;
+    font-weight: 600;
+    visibility: hidden;
+}
+
+.nav-icon {
+    color: #ddd;
+    font-size: 20px;
+    position: absolute;
+    top: 15px;
+    left: 15px;
+}
+
+.fa-house {
+    margin-left: -1px;
+}
+
+.fa-user {
+    margin-left: 1px;
+}
+
+.nav-links {
+    text-decoration: none;
+    color: var(--white);
+}
+
+.right-nav ul li:hover {
+    background-color: var(--yellow);
+}
+
+.right-nav ul li:hover .nav-links span {
+    visibility: visible;
+    background-color: var(--yellow);
 }
