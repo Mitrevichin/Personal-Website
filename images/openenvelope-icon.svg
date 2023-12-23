@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg2"
+   sodipodi:docname="openenvelope-icon.svg"
+   viewBox="0 0 269.8399 284.08322"
+   version="1.1"
+   inkscape:version="0.91 r13725"
+   width="269.8399"
+   height="284.08322">
+  <defs
+     id="defs8876" />
+  <sodipodi:namedview
+     id="namedview4"
+     fit-margin-left="0"
+     inkscape:zoom="1.0040916"
+     borderopacity="1"
+     inkscape:current-layer="g10159"
+     inkscape:cx="175.14413"
+     inkscape:guide-bbox="true"
+     inkscape:window-maximized="1"
+     showgrid="false"
+     fit-margin-right="0"
+     showguides="true"
+     bordercolor="#666666"
+     inkscape:window-x="4"
+     guidetolerance="10"
+     objecttolerance="10"
+     inkscape:window-y="1"
+     fit-margin-bottom="0"
+     inkscape:window-width="1916"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     pagecolor="#ffffff"
+     gridtolerance="10"
+     inkscape:cy="35.404111"
+     inkscape:window-height="1035"
+     fit-margin-top="0" />
+  <metadata
+     id="metadata8874">
+    <rdf:RDF>
+      <cc:Work>
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <cc:license
+           rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/" />
+        <dc:publisher>
+          <cc:Agent
+             rdf:about="http://openclipart.org/">
+            <dc:title>Openclipart</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:title></dc:title>
+        <dc:date></dc:date>
+        <dc:description>remix by j4p4n</dc:description>
+        <dc:source></dc:source>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>ben</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:subject>
+          <rdf:Bag />
+        </dc:subject>
+      </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/publicdomain/zero/1.0/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="g9911"
+     transform="translate(-49.817676,218.16158)">
+    <g
+       id="g10026"
+       transform="translate(-35.710694,30.269961)">
+      <g
+         id="g10159"
+         transform="translate(22.56344,-188.3381)">
+        <path
+           d="m 64.91025,222.59368 c -1.11696,-1.11696 -1.99149,-41.292 -1.94343,-89.28 l 0.0873,-87.249004 59.775,-50.9999995 c 32.877,-28.0500005 63.213,-52.2720005 67.413,-53.8290005 4.7838,-1.77216 10.4448,-1.77216 15.1527,0 4.1337,1.55601 34.491,25.779 67.464,53.8290005 l 59.946,50.9999995 -0.71256,88.500004 -0.71256,88.5 -132.219,0.78084 c -72.72,0.42945 -133.134,-0.1329 -134.25,-1.25001 z m 239.385,-15.7401 c -3.2541,-3.1401 -21.87,-19.3401 -41.37,-36 l -35.451,-30.291 -29.5959,0 -29.5959,0 -35.451,30.291 c -19.4988,16.6599 -38.115,32.859 -41.37,36 -5.82,5.616 -4.083,5.7093 106.416,5.7093 110.499,0 112.236,-0.0933 106.416,-5.7093 z m -183.543,-40.434 c 36.351,-31.206 38.091,-33.204 33,-37.899 -6.8658,-6.3351 -66.675,-57.189004 -73.623,-62.604004 -4.9674,-3.8685 -5.25,-0.2631 -5.25,66.957004 0,56.049 0.79143,70.563 3.75,68.766 2.0625,-1.25286 21.0186,-17.1015 42.123,-35.22 z m 199.47,-67.893004 -0.84372,-36.381 -37.5,31.995 c -20.625,17.597104 -39.249,33.663004 -41.385,35.700004 -3.1347,2.98995 4.1127,10.557 37.5,39.153 l 41.385,35.448 0.84372,-34.77 c 0.46404,-19.1226 0.46404,-51.138 0,-71.148004 z m -176.16,-88.449 c 27.8139,-23.925 51.936,-43.5 53.604,-43.5 1.66812,0 25.9182,19.575 53.889,43.5 46.653,39.906 59.952,48.354 64.506,40.983 2.51484,-4.0692 -110.85,-99.483 -118.2,-99.483 -7.3494,0 -120.717,95.415 -118.2,99.483 4.626,7.4847 17.8107,-0.9054 64.404,-40.983 z"
+           inkscape:connector-curvature="0"
+           style="fill:#000000"
+           sodipodi:nodetypes="cscsssscccsccsscccssssssssssscssscsssssssss"
+           id="path5774-7" />
+      </g>
+    </g>
+  </g>
+</svg>
