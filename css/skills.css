@@ -87,7 +87,7 @@
     grid-template-columns: repeat(4, auto);
     justify-content: center;
     column-gap: 50px;
-    row-gap: 30px;
+    row-gap: 60px;
     margin-left: -100px;
     margin-bottom: 100px;
 }
@@ -97,7 +97,7 @@
     width: 250px;
     height: 200px;
     background-color: #222222;
-    border-radius: 10px;
+    border-radius: 50px;
     outline: none;
     display: flex;
     justify-content: center;
@@ -107,7 +107,7 @@
 
 .technologies img {
     display: block;
-    width: 45%;
+    width: 35%;
     max-width: 100%;
     height: auto;
 }
@@ -122,8 +122,8 @@
     width: 100%;
     height: 0;
     box-shadow: 1px 1px 4px var(--yellow);
-    border-radius: 10px;
-    transition: .5s ease;
+    border-radius: 50px;
+    transition: .3s ease;
 }
 
 .technologies:hover .overlay {
@@ -179,22 +179,99 @@
     margin-left: 140px;
     margin-top: -15px;
     gap: 70px;
-    font-size: 24px;
+    font-size: 22px;
     font-style: italic;
 }
 
 .tools-box span {
     background-color: #222222;
     padding: 5px 20px;
-    border-radius: 25px;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
     transition: .2s ease-in-out;
 }
 
 .tools-box span:hover {
     cursor: pointer;
-    background-color: var(--yellow);
-    transform: translateY(-6px);
+    box-shadow: 34px 11px 104px -9px rgba(248,231,28,1),
+0px 15px 12px 0px rgba(0,0,0,0.22);
 }
+
+
+.planned-skills h4 {
+    text-transform: capitalize;
+    font-size: 26px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin: 100px 0 50px 140px;
+
+}
+
+.container-planned-technologies {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    justify-content: center;
+    column-gap: 50px;
+    margin-left: -100px;
+    position: relative;
+}
+
+.planned-technologies {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 250px;
+    height: 220px;
+    background-color: #222222;
+    position: relative;
+    border-radius: 21% 79% 100% 0% / 56% 54% 46% 44%;
+}
+
+.planned-technologies img {
+    width: 40%;
+    max-width: 100%;
+    height: auto;
+}
+
+
+.overlay-planned {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    width: 100%;
+    height: 0;
+    border-radius: 21% 79% 100% 0% / 56% 54% 46% 44%;
+    transition: .3s ease;
+}
+
+.overlay-planned h6 {
+    text-align: center;
+    margin-top: 100px;
+    font-size: 18px;
+}
+
+.planned-technologies:hover .overlay-planned {
+    height: 100%;
+}
+
+.typescript {
+    background-color: #2D79C7;
+}
+
+.node-js {
+    background-color: #4F9C43;
+}
+
+.express {
+    background-color: #F1C40F;
+}
+
+.database {
+    background-color: #bdbec1;
+}
+
 
 /********************************** NAV *****************************/
 .skills-nav {
