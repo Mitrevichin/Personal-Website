@@ -49,11 +49,10 @@
 .all-skills h3 {
     color: var(--white);
     text-transform: capitalize;
-    font-size: 22px;
+    font-size: 26px;
     font-weight: 600;
     letter-spacing: 1px;
-    font-style: italic;
-    width: 200px;
+    width: 220px;
     margin: 0 0 50px 140px;
 }
 
@@ -90,6 +89,7 @@
     column-gap: 50px;
     row-gap: 30px;
     margin-left: -100px;
+    margin-bottom: 100px;
 }
 
 .technologies {
@@ -148,7 +148,7 @@
 }
 
 .js {
-    background-color: #d8bf1a;
+    background-color: #d4b906;
 }
 
 .react {
@@ -157,6 +157,43 @@
 
 .git {
     background-color: #DE4C36;
+}
+
+/********************************** TOOLS *****************************/
+.tools h4 {
+    color: var(--white);
+    text-transform: capitalize;
+    font-size: 26px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin: 0 0 50px 140px;
+}
+
+.yellow-h4 {
+    color: var(--yellow);
+}
+
+.tools-box {
+    color: var(--white);
+    display: flex;
+    margin-left: 140px;
+    margin-top: -15px;
+    gap: 70px;
+    font-size: 24px;
+    font-style: italic;
+}
+
+.tools-box span {
+    background-color: #222222;
+    padding: 5px 20px;
+    border-radius: 25px;
+    transition: .2s ease-in-out;
+}
+
+.tools-box span:hover {
+    cursor: pointer;
+    background-color: var(--yellow);
+    transform: translateY(-6px);
 }
 
 /********************************** NAV *****************************/
