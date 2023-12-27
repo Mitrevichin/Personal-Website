@@ -15,6 +15,7 @@
 
 body {
     color: var(--white);
+    overflow-x: hidden;
 }
 
 :root {

@@ -89,11 +89,11 @@
     column-gap: 50px;
     row-gap: 60px;
     margin-left: -100px;
-    margin-bottom: 100px;
+    margin-bottom: 150px;
 }
 
 .technologies {
-    box-shadow: 1px 1px 4px var(--yellow);
+    box-shadow: 3px 4px 10px -6px whitesmoke;
     width: 250px;
     height: 200px;
     background-color: #222222;
@@ -159,6 +159,8 @@
     background-color: #DE4C36;
 }
 
+.soft-skills {}
+
 /********************************** TOOLS *****************************/
 .tools h4 {
     color: var(--white);
@@ -176,8 +178,7 @@
 .tools-box {
     color: var(--white);
     display: flex;
-    margin-left: 140px;
-    margin-top: -15px;
+    margin: -15px 0 150px 140px;
     gap: 70px;
     font-size: 22px;
     font-style: italic;
@@ -192,9 +193,10 @@
 }
 
 .tools-box span:hover {
+    background-color: rgb(58, 54, 9);
     cursor: pointer;
-    box-shadow: 34px 11px 104px -9px rgba(248,231,28,1),
-0px 15px 12px 0px rgba(0,0,0,0.22);
+    box-shadow: 34px 11px 104px -9px rgba(248, 231, 28, 1),
+        0px 15px 12px 0px rgba(0, 0, 0, 0.22);
 }
 
 
@@ -213,6 +215,7 @@
     justify-content: center;
     column-gap: 50px;
     margin-left: -100px;
+    margin-bottom: 150px;
     position: relative;
 }
 
@@ -272,6 +275,49 @@
     background-color: #bdbec1;
 }
 
+.soft-skills h4 {
+    text-transform: capitalize;
+    font-size: 26px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin: 100px 0 50px 140px;
+}
+
+.soft-skills-desc {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 50px;
+    width: 80%;
+    margin-left: 140px;
+    margin-bottom: 50px;
+}
+
+.soft-skills-desc p {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.soft-skills-heading {
+    background-color: #222222;
+    width: 520px;
+    padding: 15px 150px;
+    font-size: 18px;
+    text-transform: capitalize;
+    text-align: center;
+    letter-spacing: 1.3px;
+    margin-bottom: 10px;
+    border-bottom-right-radius: 40px;
+    border-top-left-radius: 40px;
+    transition: 0.4s ease-in;
+}
+
+.soft-skills-heading:hover {
+    cursor: pointer;
+    background: rgb(255, 180, 0);
+    background: radial-gradient(circle, rgba(255, 180, 0, 1) 0%, rgba(17, 17, 17, 1) 100%);
+}
 
 /********************************** NAV *****************************/
 .skills-nav {
