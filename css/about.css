@@ -23,7 +23,7 @@
 
 .pic-box {
     width: 35%;
-    
+
 }
 
 
@@ -32,7 +32,7 @@
     max-width: 100%;
     display: block;
     border-radius: 50%;
-    border: 2px solid var(--yellow);
+    box-shadow: 1px 1px 6px var(--yellow);
 }
 
 .obj-person {
@@ -50,7 +50,7 @@
 
 .obj-about {
     position: absolute;
-    top: 35%;
+    top: 10%;
     left: 55%;
 
 }
@@ -61,7 +61,7 @@
 
 .arr {
     width: 70%;
-    margin: 100px auto;
+    margin: 100px auto 150px;
     text-align: center;
 }
 
@@ -74,10 +74,85 @@
     background: linear-gradient(135deg, rgba(185, 132, 5, 1) 0%, rgba(27, 24, 16, 1) 0%, rgba(96, 71, 11, 1) 0%, rgba(17, 17, 17, 1) 0%, rgba(20, 19, 17, 1) 6%, rgba(24, 21, 17, 1) 14%, rgba(98, 72, 11, 1) 49%, rgba(27, 23, 17, 1) 86%, rgba(22, 20, 17, 1) 89%, rgba(20, 19, 17, 1) 93%, rgba(27, 24, 17, 1) 100%, rgba(27, 24, 17, 1) 100%, rgba(27, 23, 17, 1) 100%, rgba(23, 21, 17, 1) 100%); */
 }
 
+.desc {
+    margin-left: 180px;
+    width: 74%;
+    margin-bottom: 100px;
+}
+
 .h4-description {
-    margin-left: 160px;
+    margin-bottom: 30px;
     text-transform: capitalize;
     font-size: 26px;
     font-weight: 600;
     letter-spacing: 1px;
+}
+
+.par-desc {
+    margin-left: 10px;
+    letter-spacing: 1px;
+    font-size: 1.1rem;
+    text-shadow: 1px 2px black;
+}
+
+.open-tag {
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.closing-tag {
+    font-size: 1.1rem;
+    font-weight: 600;
+}
+
+.interests {
+    margin-left: 180px;
+}
+
+.hard-work,
+.planning,
+.preparation {
+    width: 50%;
+    height: 350px;
+    margin-top: 50px;
+    margin-bottom: 60px;
+    border-radius: 10px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.68), rgba(0, 0, 0, 0.626)), url(../images/hard-work.jpg);
+    background-position: center center;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    transition: all .3s;
+}
+
+.philosophy {
+    text-transform: capitalize;
+    font-size: 1.5rem;
+    font-weight: 500;
+    padding-left: 30px;
+}
+
+.planning {
+    margin-left: 200px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.814), rgba(0, 0, 0, 0.751)), url(../images/plan.jpg);
+}
+
+.preparation {
+    margin-left: 400px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.814), rgba(0, 0, 0, 0.751)), url(../images/preparation.jpg);
+}
+
+.preparation:hover {
+    box-shadow: 34px 11px 80px -9px rgba(248, 231, 28, 1),
+    0px 15px 12px 0px rgba(0, 0, 0, 0.22);
+}
+
+.hard-work:hover {
+    box-shadow: 34px 11px 80px -9px rgba(248, 231, 28, 1),
+    0px 15px 12px 0px rgba(0, 0, 0, 0.22);
+}
+
+.planning:hover {
+    box-shadow: 34px 11px 80px -9px rgba(248, 231, 28, 1),
+    0px 15px 12px 0px rgba(0, 0, 0, 0.22);
 }
