@@ -1,0 +1,67 @@
+.about-wrapper {
+    width: 100vw;
+    /* height: 100vh; */
+    background-color: var(--black);
+    position: absolute;
+}
+
+.about-text {
+    left: 23%;
+}
+
+.pic-obj-arr {
+    position: relative;
+}
+
+.main-inner-wrapper {
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    gap: 70px;
+    justify-content: center;
+}
+
+.pic-box {
+    width: 35%;
+}
+
+
+.pic-box img {
+    width: 100%;
+    max-width: 100%;
+    display: block;
+    border-radius: 50%;
+
+}
+
+.obj-person {
+    width: 50%;
+}
+
+.person,
+.about {
+    letter-spacing: 1px;
+    font-size: 1.2rem;
+    text-shadow: 1px 2px black;
+}
+
+
+.obj-about {
+    position: absolute;
+    top: 50%;
+    left: 55%;
+   
+}
+
+.yellow-bracket {
+    color: var(--yellow);
+}
+
+.heart-shape {
+    width: 100px;
+    height: 100px;
+    clip-path: url(#heart);
+    background-color: red; /* or any color you prefer */
+  }
+  
+  

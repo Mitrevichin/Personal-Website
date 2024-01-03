@@ -93,11 +93,10 @@
 }
 
 .technologies {
-    box-shadow: 3px 4px 10px -6px whitesmoke;
     width: 250px;
     height: 200px;
     background-color: #222222;
-    border-radius: 50px;
+    border-radius: 10px;
     outline: none;
     display: flex;
     justify-content: center;
@@ -121,8 +120,7 @@
     overflow: hidden;
     width: 100%;
     height: 0;
-    box-shadow: 1px 1px 4px var(--yellow);
-    border-radius: 50px;
+    border-radius: 10px;
     transition: .3s ease;
 }
 
