@@ -23,6 +23,7 @@
 
 .pic-box {
     width: 35%;
+    
 }
 
 
@@ -31,7 +32,7 @@
     max-width: 100%;
     display: block;
     border-radius: 50%;
-
+    border: 2px solid var(--yellow);
 }
 
 .obj-person {
@@ -39,7 +40,8 @@
 }
 
 .person,
-.about {
+.about,
+.arr-values {
     letter-spacing: 1px;
     font-size: 1.2rem;
     text-shadow: 1px 2px black;
@@ -48,20 +50,34 @@
 
 .obj-about {
     position: absolute;
-    top: 50%;
+    top: 35%;
     left: 55%;
-   
+
 }
 
 .yellow-bracket {
     color: var(--yellow);
 }
 
-.heart-shape {
-    width: 100px;
-    height: 100px;
-    clip-path: url(#heart);
-    background-color: red; /* or any color you prefer */
-  }
-  
-  
+.arr {
+    width: 70%;
+    margin: 100px auto;
+    text-align: center;
+}
+
+.arr-values {
+    padding: 10px 20px;
+    border-radius: 10px;
+    border-bottom: 1px solid var(--yellow);
+    border-top: 1px solid var(--yellow);
+    /* background: rgb(185, 132, 5);
+    background: linear-gradient(135deg, rgba(185, 132, 5, 1) 0%, rgba(27, 24, 16, 1) 0%, rgba(96, 71, 11, 1) 0%, rgba(17, 17, 17, 1) 0%, rgba(20, 19, 17, 1) 6%, rgba(24, 21, 17, 1) 14%, rgba(98, 72, 11, 1) 49%, rgba(27, 23, 17, 1) 86%, rgba(22, 20, 17, 1) 89%, rgba(20, 19, 17, 1) 93%, rgba(27, 24, 17, 1) 100%, rgba(27, 24, 17, 1) 100%, rgba(27, 23, 17, 1) 100%, rgba(23, 21, 17, 1) 100%); */
+}
+
+.h4-description {
+    margin-left: 160px;
+    text-transform: capitalize;
+    font-size: 26px;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
