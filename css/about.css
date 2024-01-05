@@ -31,7 +31,6 @@
     max-width: 100%;
     display: block;
     border-radius: 50%;
-    box-shadow: 1px 1px 6px var(--yellow);
 }
 
 .obj-person {
@@ -49,7 +48,7 @@
 
 .obj-about {
     position: absolute;
-    top: 10%;
+    top: 6%;
     left: 55%;
 }
 
@@ -66,8 +65,9 @@
 .arr-values {
     padding: 10px 20px;
     border-radius: 10px;
-    border-bottom: 1px solid var(--yellow);
-    border-top: 1px solid var(--yellow);
+    /* border-bottom: 1px solid var(--yellow); */
+    border-left: 1px solid var(--yellow);
+    border-right: 1px solid var(--yellow);
     /* background: rgb(185, 132, 5);
     background: linear-gradient(135deg, rgba(185, 132, 5, 1) 0%, rgba(27, 24, 16, 1) 0%, rgba(96, 71, 11, 1) 0%, rgba(17, 17, 17, 1) 0%, rgba(20, 19, 17, 1) 6%, rgba(24, 21, 17, 1) 14%, rgba(98, 72, 11, 1) 49%, rgba(27, 23, 17, 1) 86%, rgba(22, 20, 17, 1) 89%, rgba(20, 19, 17, 1) 93%, rgba(27, 24, 17, 1) 100%, rgba(27, 24, 17, 1) 100%, rgba(27, 23, 17, 1) 100%, rgba(23, 21, 17, 1) 100%); */
 }
@@ -241,6 +241,7 @@
 /******************************** CLOSER ************************************/
 .closer {
     margin-left: 180px;
+    position: relative;
 }
 
 .h4-closer {
@@ -253,10 +254,71 @@
 
 .h5-closer {
     width: 40%;
-    margin: 0 auto;
+    margin: 0 auto 100px;
     text-transform: capitalize;
-    font-size: 22px;
+    font-size: 24px;
     font-style: italic;
     font-weight: 300;
-    letter-spacing: 5px;
+    letter-spacing: 10px;
+    text-shadow: 0 5px 15px black;
+    position: relative;
 }
+
+.h5-closer::after {
+    content: '';
+    /* display: inline-block; */
+    position: absolute;
+    top: 55px;
+    left: 0;
+    height: .5px;
+    width: 250px;
+    background-color: var(--yellow);
+}
+
+.wedding-wrapper {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.pic {
+    width: 30%;
+    margin-bottom: 8%;
+    clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
+    position: relative;
+    transition: all .3s;
+    opacity: 0.8;
+}
+
+.pic img {
+    max-width: 100%;
+}
+
+.pic:hover {
+    transform: scale(1.1) translateX(6px);
+    filter: contrast(105%);
+    opacity: 1;
+}
+
+.pic4,
+.pic5,
+.pic6 {
+    clip-path: polygon(100% 0%, 75% 50%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
+}
+
+.pic4:hover,
+.pic5:hover,
+.pic6:hover {
+    transform: scale(1.1) translateX(-6px);
+}
+
+.line-married {
+    
+    /* position: absolute; */
+    /* bottom: 10px; */
+}
+
+
+  
+
+ 
