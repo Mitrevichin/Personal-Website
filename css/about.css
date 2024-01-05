@@ -312,13 +312,32 @@
     transform: scale(1.1) translateX(-6px);
 }
 
-.line-married {
+
+
+/**********************PROGRESS BUTTON********************************/
+#progress {
     
-    /* position: absolute; */
-    /* bottom: 10px; */
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
+    display: none;
+    place-items: center;
+    cursor: pointer;
 }
 
-
+#progress-value {
+    display: block;
+    height: calc(100% - 15px);
+    width: calc(100% - 15px);
+    background-color: #222;
+    border-radius: 50%;
+    display: grid;
+    place-items: center;
+    font-size: 30px;
+}
   
 
  
