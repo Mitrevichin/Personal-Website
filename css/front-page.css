@@ -128,7 +128,8 @@
     width: 54px;
     border-radius: 50px;
     position: absolute;
-    left: 76.4%;
+    left: 75.8%;
+    top: -1%;
     display: flex;
     justify-content: center;
     align-items: center;

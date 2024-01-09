@@ -242,6 +242,7 @@
 .closer {
     margin-left: 180px;
     position: relative;
+    margin-bottom: 200px;
 }
 
 .h4-closer {
@@ -279,6 +280,7 @@
     width: 100%;
     display: flex;
     flex-wrap: wrap;
+    margin-left: -55px;
 }
 
 .pic {
@@ -312,11 +314,107 @@
     transform: scale(1.1) translateX(-6px);
 }
 
+/************************** BOOOKS ************************************/
 
+.books {
+    position: relative;
+    margin-top: 150px;
+    margin-left: -60px;
+}
 
-/**********************PROGRESS BUTTON********************************/
-#progress {
+.h5-books {
+    position: absolute;
+    top: -30%;
+    left: 38%;
+}
+
+/********************** SlIDER GALLERY ********************************/
+.gallery-wrapper {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    margin: 150px auto;
+}
+
+.gallery {
+    display: flex;
+    width: 100%;
+    overflow-x: scroll;
+}
+
+.gallery::-webkit-scrollbar {
+    display: none;
+}
+
+.gallery div {
+    width: 100%;
+    height: 465px;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 30px;
+    padding: 10px;
+    flex: none;
     
+}
+
+.slider {
+    background-position: center center;
+    border-radius: 10px;
+}
+
+.slider1 {
+    background-image: url(../images/slider1.jpg);
+    background-size: contain;
+}
+
+.slider2 {
+    background-image: url(../images/slider2.jpg);
+    background-size: contain;
+}
+
+.slider3 {
+    background-image: url(../images/slider3.jpg);
+    background-size: cover;
+}
+
+.slider4 {
+    background-image: url(../images/slider4.jpg);
+    background-size: cover;
+}
+
+.slider5 {
+    background-image: url(../images/slider5.jpg);
+    background-size: cover;
+}
+
+.slider6 {
+    background-image: url(../images/slider6.jpg);
+    background-size: cover;
+}
+
+.gallery div span img {
+    width: 100%;
+    max-width: 100%;
+    
+}
+
+.gallery div:hover {
+    cursor: pointer;
+}
+
+#back-arr,
+#forward-arr {
+    align-self: center;
+    font-size: 45px;
+    cursor: pointer;
+    margin: 40px;
+    color: var(--yellow);
+}
+
+
+/********************** PROGRESS BUTTON ********************************/
+#progress {
     position: fixed;
     right: 20px;
     bottom: 20px;
@@ -326,6 +424,7 @@
     display: none;
     place-items: center;
     cursor: pointer;
+    transition: all .3s;
 }
 
 #progress-value {
@@ -338,6 +437,8 @@
     place-items: center;
     font-size: 30px;
 }
-  
 
- 
+#progress:hover {
+    transform: translateY(-3px);
+}
+
