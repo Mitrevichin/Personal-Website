@@ -18,9 +18,8 @@
 .left-picture {
     height: 100%;
     width: 32%;
-    background-color: bisque;
     border-radius: 20px;
-    box-shadow: 0 0 7px rgba(0, 0, 0, .9);
+    box-shadow: 0 5px 17px rgba(0, 0, 0, .9);
 }
 
 .profile-pic {
@@ -140,7 +139,7 @@
     padding: 11px;
 }
 
-/********************************* RIGHT SIDE *******************************/
+/********************************* RIGHT SIDE -NAV *******************************/
 .right-nav {
     /* height: 100%; */
     width: 2%;

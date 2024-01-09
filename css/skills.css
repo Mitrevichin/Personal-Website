@@ -1,5 +1,4 @@
-/********************************** BACKGROUND - UPPER TEXT *****************************/
-
+/**************************** BACKGROUND - UPPER TEXT ***************************/
 .skills-wrapper {
     height: auto;
     width: 100vw;
@@ -44,7 +43,7 @@
     color: var(--yellow);
 }
 
-/********************************** TECHNOLOGIES *****************************/
+/********************************** TECHNOLOGIES (SKILLS) *****************************/
 
 .all-skills h3 {
     color: var(--white);
@@ -157,8 +156,6 @@
     background-color: #DE4C36;
 }
 
-.soft-skills {}
-
 /********************************** TOOLS *****************************/
 .tools h4 {
     color: var(--white);
@@ -197,7 +194,7 @@
         0px 15px 12px 0px rgba(0, 0, 0, 0.22);
 }
 
-
+/******************* TO BE LEARNT SKILLS**************************/
 .planned-skills h4 {
     text-transform: capitalize;
     font-size: 26px;
@@ -273,6 +270,8 @@
     background-color: #bdbec1;
 }
 
+
+/******************* SOFT SKILLS**************************/
 .soft-skills h4 {
     text-transform: capitalize;
     font-size: 26px;

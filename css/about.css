@@ -1,3 +1,4 @@
+/******************************** PIC + OBJECTS + ARRAY ****************************/
 .about-wrapper {
     width: 100vw;
     /* height: 100vh; */
@@ -9,11 +10,11 @@
     left: 23%;
 }
 
-.pic-obj-arr {
+.main {
     position: relative;
 }
 
-.main-inner-wrapper {
+.pic-obj-person-wrapper {
     margin: 0 auto;
     width: 80%;
     display: flex;
@@ -23,8 +24,8 @@
 
 .pic-box {
     width: 35%;
+    margin-right: 100px;
 }
-
 
 .pic-box img {
     width: 100%;
@@ -35,6 +36,9 @@
 
 .obj-person {
     width: 50%;
+    position: relative;
+    right: 80px;
+    line-height: 28px;
 }
 
 .person,
@@ -45,11 +49,11 @@
     text-shadow: 1px 2px black;
 }
 
-
 .obj-about {
     position: absolute;
-    top: 6%;
+    top: 5%;
     left: 55%;
+    line-height: 28px;
 }
 
 .yellow-bracket {
@@ -65,13 +69,11 @@
 .arr-values {
     padding: 10px 20px;
     border-radius: 10px;
-    /* border-bottom: 1px solid var(--yellow); */
-    border-left: 1px solid var(--yellow);
-    border-right: 1px solid var(--yellow);
-    /* background: rgb(185, 132, 5);
-    background: linear-gradient(135deg, rgba(185, 132, 5, 1) 0%, rgba(27, 24, 16, 1) 0%, rgba(96, 71, 11, 1) 0%, rgba(17, 17, 17, 1) 0%, rgba(20, 19, 17, 1) 6%, rgba(24, 21, 17, 1) 14%, rgba(98, 72, 11, 1) 49%, rgba(27, 23, 17, 1) 86%, rgba(22, 20, 17, 1) 89%, rgba(20, 19, 17, 1) 93%, rgba(27, 24, 17, 1) 100%, rgba(27, 24, 17, 1) 100%, rgba(27, 23, 17, 1) 100%, rgba(23, 21, 17, 1) 100%); */
+    border: .1px solid var(--yellow);
 }
 
+
+/******************************** DESC SECTION ****************************/
 .desc {
     margin-left: 180px;
     width: 74%;
@@ -157,9 +159,10 @@
         0px 15px 12px 0px rgba(0, 0, 0, 0.22);
 }
 
+
+/******************************** INTEREST SECTION ****************************/
 .interests {
     margin: 150px 0 100px 180px;
-
 }
 
 .h4-interests {
@@ -238,7 +241,7 @@
     text-shadow: 0 2px 10px var(--yellow);
 }
 
-/******************************** CLOSER ************************************/
+/******************************** CLOSER SECTION************************************/
 .closer {
     margin-left: 180px;
     position: relative;
@@ -314,7 +317,7 @@
     transform: scale(1.1) translateX(-6px);
 }
 
-/************************** BOOOKS ************************************/
+/************************** BOOOKS SECTION************************************/
 
 .books {
     position: relative;
@@ -328,7 +331,7 @@
     left: 38%;
 }
 
-/********************** SlIDER GALLERY ********************************/
+/********************** SlIDER GALLERY SECTION********************************/
 .gallery-wrapper {
     width: 80%;
     display: flex;
@@ -355,12 +358,17 @@
     grid-gap: 30px;
     padding: 10px;
     flex: none;
-    
+
 }
 
 .slider {
     background-position: center center;
     border-radius: 10px;
+    transition: all .3s;
+}
+
+.slider:hover {
+    transform: scale(.9);
 }
 
 .slider1 {
@@ -396,7 +404,7 @@
 .gallery div span img {
     width: 100%;
     max-width: 100%;
-    
+
 }
 
 .gallery div:hover {
@@ -441,4 +449,3 @@
 #progress:hover {
     transform: translateY(-3px);
 }
-
