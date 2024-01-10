@@ -123,6 +123,35 @@
     transition: .3s ease;
 }
 
+@keyframes moveInLeft {
+    0% {opacity: 0; transform: translateX(-10rem);}
+
+    80% {transform: translateX(.5rem);}
+
+    100% {opacity: 1; transform: translate(0);}
+}
+
+@keyframes moveInRight {
+    0% {opacity: 0; transform: translateX(10rem);}
+    100% {opacity: 1; transform: translate(0);}
+}
+
+.technologies:hover .h5-animated {
+    animation: moveInRight 1s;
+}
+
+.technologies:hover .par1{
+    animation: moveInLeft 1.2s;
+}
+
+.technologies:hover .par2{
+    animation: moveInLeft 1.2s .1s;
+}
+
+.technologies:hover .par3{
+    animation: moveInLeft 1.2s .2s;
+}
+
 .technologies:hover .overlay {
     bottom: 0;
     height: 100%;

@@ -29,15 +29,10 @@ window.onload = calcScrollvalue;
 
 
 // Slider book gallery
+
 let scrollContainer = document.querySelector('.gallery');
 let backBtn = document.getElementById('back-arr');
 let nextBtn = document.getElementById('forward-arr');
-
-scrollContainer.addEventListener('wheel', (e) => {
-    e.preventDefault();
-    scrollContainer.style.scrollBehaviour = 'auto';
-    scrollContainer.scrollLeft += e.deltaY;
-});
 
 nextBtn.addEventListener('click', () => {
     scrollContainer.style.scrollBehaviour = 'smooth';
@@ -48,3 +43,4 @@ backBtn.addEventListener('click', () => {
     scrollContainer.style.scrollBehaviour = 'smooth';
     scrollContainer.scrollLeft -= 1100;
 });
+
