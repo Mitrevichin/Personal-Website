@@ -1,0 +1,31 @@
+@keyframes headingToBottom {
+    0% {
+        transform: translateY(-500px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@keyframes dashToRight {
+    0% {
+        transform: translateX(-1000px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+@keyframes navToTop {
+    0% {
+        transform: translatey(500px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
+
+

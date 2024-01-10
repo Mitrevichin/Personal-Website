@@ -14,11 +14,26 @@
 
 <body>
     <section class="front-page">
+        <!-- Hidden menu -->
+        <nav class="hidden-nav">
+            <a href="../html/index.html" class="hidden-menu-items item1">Home</a>
+            <a href="../html/about.html" class="hidden-menu-items item2">About</a>
+            <a href="../html/skills.html" class="hidden-menu-items item3">skills</a>
+            <a href="../html/projects.html" class="hidden-menu-items item4">Projects</a>
+            <a href="../html/contact.html" class="hidden-menu-items item5">Contact</a>
+        </nav>
+
+        <!-- Button less 1200px -->
+        <button type="button" class="btn-1200">
+            <i class="fa fa-bars" id="menuIcon"></i>
+        </button>
+
         <div class="inner-container-front-page">
 
             <!-- LEFT PICTURE -->
             <div class="left-picture">
                 <img class="profile-pic" src="../images/petar.png" alt="Profile picture">
+                <img class="profile-pic pic2" src="../images/petar2.png" alt="Profile picture">
             </div>
 
             <!-- CENTER TEXT -->
@@ -33,7 +48,7 @@
                     With a knack for continuous learning, I am a web developer who embraces challenges and seeks innovative solutions to deliver high-quality web experiences.
                 </p>
                 <button class="btn-more">
-                    <a href="/html/about.html">More about me 
+                    <a href="/html/about.html"> <span class="more-btn-word">More</span> about me 
                         <span class="btn-arrow">
                             <i class="fa-solid fa-arrow-right"></i>
                         </span></a>
@@ -77,6 +92,8 @@
             </nav>
         </div>
     </section>
+
+    <script src="/js/script.js"></script>
 </body>
 
 </html>

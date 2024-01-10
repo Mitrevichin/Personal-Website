@@ -433,6 +433,8 @@
     place-items: center;
     cursor: pointer;
     transition: all .3s;
+
+    animation: fallingBtn 1s;
 }
 
 #progress-value {
@@ -447,5 +449,5 @@
 }
 
 #progress:hover {
-    transform: translateY(-3px);
+    transform: translateY(-6px);
 }
