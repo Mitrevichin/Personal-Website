@@ -333,7 +333,7 @@
 
 /********************** SlIDER GALLERY SECTION********************************/
 .gallery-wrapper {
-    width: 80%;
+    width: 77%;
     display: flex;
     justify-content: center;
     align-self: center;
@@ -352,63 +352,57 @@
 
 .gallery div {
     width: 100%;
-    height: 465px;
-    display: grid;
-    grid-template-columns: auto auto auto;
-    grid-gap: 30px;
+    display: flex;
+    gap: 50px;
     padding: 10px;
     flex: none;
-
+    overflow: hidden;
+    transition: all .5s;
 }
 
 .slider {
-    background-position: center center;
-    border-radius: 10px;
-    transition: all .3s;
-}
-
-.slider:hover {
-    transform: scale(.9);
-}
-
-.slider1 {
-    background-image: url(../images/slider1.jpg);
-    background-size: contain;
-}
-
-.slider2 {
-    background-image: url(../images/slider2.jpg);
-    background-size: contain;
-}
-
-.slider3 {
-    background-image: url(../images/slider3.jpg);
-    background-size: cover;
-}
-
-.slider4 {
-    background-image: url(../images/slider4.jpg);
-    background-size: cover;
-}
-
-.slider5 {
-    background-image: url(../images/slider5.jpg);
-    background-size: cover;
-}
-
-.slider6 {
-    background-image: url(../images/slider6.jpg);
-    background-size: cover;
-}
-
-.gallery div span img {
+    border-radius: 5px;
+    display: block;
     width: 100%;
-    max-width: 100%;
+    position: relative;
+    overflow: hidden;
+    transition: all .5s;
+}
 
+.slider:hover img {
+    opacity: 0.2;
+}
+
+.slider:hover .quote {
+    opacity: 1;
+    transition: all 1s;
+}
+
+.slider img {
+    max-width: 100%;
+    object-fit: cover;
+    border-radius: 5px;
 }
 
 .gallery div:hover {
     cursor: pointer;
+}
+
+.quote {
+    opacity: 0;
+    background: rgb(153, 143, 20);
+    background: linear-gradient(to right top, black, var(--yellow), black);
+    padding: 10px 15px;
+    width: 80%;
+    text-align: center;
+    border-radius: 5px;
+    font-size: 1.5rem;
+    text-shadow: 0 2px 12px black;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.421);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%)
 }
 
 #back-arr,
@@ -419,7 +413,6 @@
     margin: 40px;
     color: var(--yellow);
 }
-
 
 /********************** PROGRESS BUTTON ********************************/
 #progress {

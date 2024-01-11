@@ -5,7 +5,7 @@
     background: linear-gradient(78deg, rgba(255, 180, 0, 1) 21%, rgba(17, 17, 17, 1) 21%);
     display: flex;
     justify-content: center;
-    overflow-x: hidden;
+    overflow: hidden;
 }
 
 .inner-container-front-page {
@@ -26,7 +26,7 @@
     justify-content: center;
     align-items: center;
     line-height: 80px;
-    z-index: 2;
+    z-index: 5;
     position: absolute;
     top: 0;
     left: -100%; /* Initially hide it by moving it off-screen to the left */
@@ -64,7 +64,7 @@
     right: 35px;
     border: none;
     display: none;
-    z-index: 2;
+    z-index: 10;
 }
 
 .btn-1200 i {
@@ -171,7 +171,7 @@
     border-top-left-radius: 48px;
     border-bottom-left-radius: 48px;
     z-index: -1;
-    transition: 0.4s;
+    transition: 0.5s;
 }
 
 .btn-more:hover {
@@ -180,6 +180,7 @@
 
 .btn-more:hover::before {
     width: 90%;
+    z-index: 1;
 }
 
 .btn-more a {
@@ -190,6 +191,7 @@
     text-transform: uppercase;
     font-weight: 600;
     margin-right: 45px;
+    z-index: 2;
 }
 
 .btn-arrow {
