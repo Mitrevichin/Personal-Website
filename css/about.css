@@ -414,6 +414,36 @@
     color: var(--yellow);
 }
 
+/***************************** QUOUTE WINDOW ****************************/
+.quote-window {
+    width: 1550px;
+    height: 750px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.683), rgba(0, 0, 0, 0.725)),
+        url('../images/wallpaper1.jpg');
+    background-size: cover;
+    /* background-position: center top; */
+    /* background-repeat: no-repeat; */
+    position: fixed;
+    bottom: -300%;
+    left: 0;
+    box-shadow: 0 5px 15px rgba(212, 191, 191, 0.582);
+    clip-path: ellipse(55% 42% at 52% 46%);
+}
+
+.quote-btn-close {
+    font-size: 1.8rem;
+    color: var(--yellow);
+    background: transparent;
+    border: none;
+    position: absolute;
+    top: 11%;
+    right: 5%;
+}
+
+.quote-btn-close:hover {
+    cursor: pointer;
+}
+
 /********************** PROGRESS BUTTON ********************************/
 #progress {
     position: fixed;

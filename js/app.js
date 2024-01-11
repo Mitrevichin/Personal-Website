@@ -45,4 +45,20 @@ backBtn.addEventListener('click', () => {
 });
 
 
+// Quote window
+
+let quoteWindow = document.querySelector('.quote-window');
+let quoteBtnClose = document.querySelector('.quote-btn-close');
+let quoteBtnsOpen = document.querySelectorAll('.quote');
+
+
+quoteBtnsOpen.forEach(quoteBtnOpen => {
+    quoteBtnOpen.addEventListener('click', () => {
+        quoteWindow.style.bottom = '0%';
+    });
+});
+
+quoteBtnClose.addEventListener('click', () => {
+    quoteWindow.style.bottom = '-300%'; // Set it to a value to hide the window
+});
 
