@@ -382,7 +382,7 @@
     max-width: 100%;
     object-fit: cover;
     border-radius: 5px;
-    
+
 }
 
 .gallery div:hover {
@@ -404,7 +404,6 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%)
-    
 }
 
 #back-arr,
@@ -417,29 +416,43 @@
 }
 
 /***************************** QUOUTE WINDOW ****************************/
+/* .overlay {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgb(227, 238, 174);
+    background: linear-gradient(90deg, rgba(227, 238, 174, 1) 0%, rgba(196, 213, 125, 1) 100%);
+    display: none;
+    z-index: 10;
+} */
+
 .quote-window {
     width: 1550px;
     height: 750px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.683), rgba(0, 0, 0, 0.725));
-    background-size: cover;
+    /* background-size: contain;
+    background-position: center right; */
     position: fixed;
     bottom: -300%;
     left: 0;
     box-shadow: 0 5px 15px rgba(237, 231, 231, 0.582);
-    
     clip-path: ellipse(47% 41% at 50% 50%);
     border: 3px solid white;
-    backface-visibility: hidden;
+    z-index: 1000;
 }
 
 .quote-btn-close {
     font-size: 1.8rem;
-    color: var(--yellow);
+    text-shadow: 0 3px 10px black;
+    
+    color: white;
     background: transparent;
     border: none;
     position: absolute;
     top: 12%;
     right: 50%;
+    z-index: 1000;
 }
 
 .quote-btn-close:hover {
@@ -448,6 +461,9 @@
 
 .quote-window>p {
     color: white;
+    font-size: 1.5rem;
+    text-shadow: 0 3px 10px black;
+    line-height: 40px;
     position: absolute;
     top: 50%;
     left: 50%;
