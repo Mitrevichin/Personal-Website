@@ -47,18 +47,46 @@ backBtn.addEventListener('click', () => {
 
 // Quote window
 
-let quoteWindow = document.querySelector('.quote-window');
-let quoteBtnClose = document.querySelector('.quote-btn-close');
-let quoteBtnsOpen = document.querySelectorAll('.quote');
+function quotation() {
+    let quoteWindow = document.querySelector('.quote-window');
+    let quoteBtnClose = document.querySelector('.quote-btn-close');
+    let quoteBtnsOpen = document.querySelectorAll('.quote');
+    let pageWrapper = document.querySelector('.about-wrapper');
+
+    Array.from(quoteBtnsOpen).forEach(btn => {
+        btn.addEventListener('click', (e) => {
+            let p = document.createElement('p');
+            quoteWindow.style.bottom = '0%';
+            pageWrapper.style.filter = 'blur(10px)';
 
 
-quoteBtnsOpen.forEach(quoteBtnOpen => {
-    quoteBtnOpen.addEventListener('click', () => {
-        quoteWindow.style.bottom = '0%';
+            if (btn.classList.contains('quote1')) {
+                p.textContent = '55555';
+                quoteWindow.style.background = 'linear-gradient(rgba(0, 0, 0, 0.683), rgba(0, 0, 0, 0.725)), url(../images/wallpaper1.jpg)';
+                // quoteWindow.style.background = 'url(../images/wallpaper1.jpg)';
+            } else if (btn.classList.contains('quote2')) {
+                p.textContent = '10101010';
+                quoteWindow.style.background = 'linear-gradient(rgba(0, 0, 0, 0.683), rgba(0, 0, 0, 0.725)), url(../images/wallpaper2.jpg)';
+            }
+
+            quoteWindow.appendChild(p);
+
+            quoteBtnClose.addEventListener('click', () => {
+                p.textContent = '';
+                quoteWindow.style.bottom = '-300%';
+                pageWrapper.style.filter = 'none';
+
+            });
+        });
+
     });
-});
+}
 
-quoteBtnClose.addEventListener('click', () => {
-    quoteWindow.style.bottom = '-300%'; // Set it to a value to hide the window
-});
+quotation();
+
+
+
+
+
+
 

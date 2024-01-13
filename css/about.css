@@ -382,6 +382,7 @@
     max-width: 100%;
     object-fit: cover;
     border-radius: 5px;
+    
 }
 
 .gallery div:hover {
@@ -403,6 +404,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%)
+    
 }
 
 #back-arr,
@@ -418,16 +420,16 @@
 .quote-window {
     width: 1550px;
     height: 750px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.683), rgba(0, 0, 0, 0.725)),
-        url('../images/wallpaper1.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.683), rgba(0, 0, 0, 0.725));
     background-size: cover;
-    /* background-position: center top; */
-    /* background-repeat: no-repeat; */
     position: fixed;
     bottom: -300%;
     left: 0;
-    box-shadow: 0 5px 15px rgba(212, 191, 191, 0.582);
-    clip-path: ellipse(55% 42% at 52% 46%);
+    box-shadow: 0 5px 15px rgba(237, 231, 231, 0.582);
+    
+    clip-path: ellipse(47% 41% at 50% 50%);
+    border: 3px solid white;
+    backface-visibility: hidden;
 }
 
 .quote-btn-close {
@@ -436,12 +438,20 @@
     background: transparent;
     border: none;
     position: absolute;
-    top: 11%;
-    right: 5%;
+    top: 12%;
+    right: 50%;
 }
 
 .quote-btn-close:hover {
     cursor: pointer;
+}
+
+.quote-window>p {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 /********************** PROGRESS BUTTON ********************************/
