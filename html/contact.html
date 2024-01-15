@@ -14,7 +14,20 @@
 
 <body>
     <section class="wrapper">
+         <!-- Hidden menu -->
+         <nav class="hidden-nav">
+            <a href="../html/index.html" class="hidden-menu-items item1">Home</a>
+            <a href="../html/about.html" class="hidden-menu-items item2">About</a>
+            <a href="../html/skills.html" class="hidden-menu-items item3">skills</a>
+            <a href="../html/projects.html" class="hidden-menu-items item4">Projects</a>
+            <a href="../html/contact.html" class="hidden-menu-items item5">Contact</a>
+        </nav>
 
+        <!-- Button less 1200px -->
+        <button type="button" class="btn-1200">
+            <i class="fa fa-bars" id="menuIcon"></i>
+        </button>
+        
         <!-- UPPER TEXT -->
         <div class="upper-text">
             <span class="background-text">Contact
@@ -76,9 +89,9 @@
             <div class="center">
                 <form class="contact-form">
                     <div class="inputs">
-                        <input type="text" placeholder="Your name" name="name">
-                        <input type="email" name="email" placeholder="Your email">
-                        <input type="text" placeholder="Your subject" name="subject">
+                        <input class="input-1" type="text" placeholder="Your name" name="name">
+                        <input class="input-2" type="email" name="email" placeholder="Your email">
+                        <input class="input-3" type="text" placeholder="Your subject" name="subject">
                     </div>
                     <textarea name="area" placeholder="Your message"></textarea>
                     <button class="btn-msg" type="submit">
@@ -92,7 +105,7 @@
 
             <!-- RIGHT (ONLY NAV) -->
             <div class="right">
-                <nav class="right-nav">
+                <nav class="right-nav nav-contact">
                     <ul>
                         <li>
                             <a class="nav-links" href="../html/index.html">
@@ -129,6 +142,8 @@
             </div>
         </section>
     </section>
+
+    <script src="../js/script.js"></script>
 </body>
 
 </html>

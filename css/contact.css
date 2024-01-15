@@ -4,6 +4,7 @@
     width: 100vw;
     background-color: var(--black);
     position: fixed;
+    overflow: scroll;
 }
 
 .upper-text {
@@ -175,7 +176,7 @@
 .contact-form textarea {
     border: none;
     outline: none;
-    width: 700px;
+    max-width: 690px;
     height: 160px;
     background-color: #222222;
     border-radius: 30px;
@@ -263,4 +264,8 @@ input[type="email"]:focus {
     position: relative;
     top: -25%;
     left: 10px;
+}
+
+.nav-contact {
+    margin-right: 25px;
 }

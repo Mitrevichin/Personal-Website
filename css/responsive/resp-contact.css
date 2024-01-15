@@ -1,0 +1,180 @@
+/***************** min-1370 *********************/
+@media screen and (min-width: 1370px) {
+    .nav-contact {
+        display: block;
+    }
+
+    .btn-1200 {
+        display: none;
+    }
+}
+
+/***************** 1350 *********************/
+@media screen and (max-width: 1350px) {
+    .nav-contact {
+        display: none;
+    }
+
+    .btn-1200 {
+        display: block;
+    }
+}
+
+/***************** 1290 *********************/
+@media screen and (max-width: 1290px) {
+    .inputs {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 30px;
+    }
+
+    .input-1,
+    .input-2 {
+        flex: 1 0 0;
+    }
+
+    .input-3 {
+        flex: 1 0 0;
+    }
+
+    /* .inputs input {
+        flex: 1 0 0;
+    } */
+}
+
+/***************** 1226 *********************/
+@media screen and (max-width: 1226px) {
+    .three-parts {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .left {
+        width: 85%;
+        margin-bottom: 80px;
+    }
+
+    .center {
+        width: 85%;
+        margin-bottom: 60px;
+    }
+}
+
+/***************** 950 *********************/
+@media screen and (max-width: 950px) {
+    .upper-text {
+        margin-top: 100px;
+    }
+
+    .background-text {
+        font-size: 5.2rem;
+        left: 5%;
+    }
+
+    .front-text {
+        font-size: 3rem;
+        left: 15%;
+    }
+
+    .center {
+        margin-bottom: 60px;
+    }
+}
+
+@media screen and (min-width: 875px) and (max-width: 1226px){
+    .inputs {
+        width: 690px;
+    }
+}
+
+/***************** 600 *********************/
+@media screen and (max-width: 600px) {
+    .background-text {
+        font-size: 4.2rem;
+        left: 10%;
+        letter-spacing: 10px;
+    }
+
+    .front-text {
+        font-size: 2.3rem;
+        left: 17%;
+    }
+
+}
+
+/***************** 500 *********************/
+@media screen and (max-width: 500px) {
+    .background-text {
+        font-size: 3.5rem;
+        left: 4%;
+        letter-spacing: 10px;
+    }
+
+    .front-text {
+        font-size: 1.8rem;
+        left: 20%;
+        top: 22%;
+    }
+
+    .left {
+        margin-left: -5px;
+    }
+
+    .text h3 {
+        font-size: 1.2rem;
+    }
+
+    .text>p {
+        text-align: left;
+    }
+}
+
+/***************** 376 *********************/
+@media screen and (max-width: 376px) {
+    .background-text {
+        font-size: 3rem;
+        left: 4%;
+        letter-spacing: 7px;
+    }
+
+    .front-text {
+        font-size: 1.6rem;
+        left: 17%;
+        top: 22%;
+    }
+
+    .contact-form textarea {
+        padding-left: 15px;
+    }
+}
+
+/***************** 320 *********************/
+@media screen and (max-width: 321px) {
+    .background-text {
+        font-size: 2.8rem;
+        left: 2%;
+        letter-spacing: 7px;
+    }
+
+    .front-text {
+        font-size: 1.5rem;
+        left: 15%;
+        top: 22%;
+    }
+
+    .email div a,
+    .phone div a {
+        font-weight: 500;
+        font-size: .9rem;
+    }
+
+    .btn-msg {
+        width: 210px;
+        font-size: 15px;
+    }
+
+    .contact-form textarea {
+        height: 130px;
+        padding-left: 15px;
+    }
+}
