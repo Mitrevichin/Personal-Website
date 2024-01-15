@@ -14,9 +14,22 @@
 
 <body>
     <section class="projects-page-wrapper">
+        <!-- Hidden menu -->
+        <nav class="hidden-nav">
+            <a href="../html/index.html" class="hidden-menu-items item1">Home</a>
+            <a href="../html/about.html" class="hidden-menu-items item2">About</a>
+            <a href="../html/skills.html" class="hidden-menu-items item3">skills</a>
+            <a href="../html/projects.html" class="hidden-menu-items item4">Projects</a>
+            <a href="../html/contact.html" class="hidden-menu-items item5">Contact</a>
+        </nav>
+
+        <!-- Button less 1200px -->
+        <button type="button" class="btn-1200 btn-1200-projects">
+            <i class="fa fa-bars" id="menuIcon"></i>
+        </button>
 
         <!-- UPPER TEXT -->
-        <div class="upper-text">
+        <div class="upper-text upper-text-projects">
             <span class="background-text projects-part">Projects
                 <span class="front-text projects-text">My
                     <span class="yellow-word">projects</span>
@@ -134,6 +147,18 @@
                     </a>
                 </div>
             </div>
+
+            <!-- PROJECT 10 -->
+            <div class="project-item last-item">
+                <div class="anchor-wrapper">
+                    <a href="https://roadside-assistance.netlify.app/" target="_blank">
+                        <img src="../images/project10.jpg" alt="Pic" class="img">
+                        <div class="overlay-project">
+                            <span class="text">It's coming...</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
         </div>
 
         <!-- NAV -->
@@ -172,6 +197,8 @@
             </ul>
         </nav>
     </section>
+
+    <script src="../js/script.js"></script>
 </body>
 
 </html>

@@ -82,12 +82,12 @@ function quotation() {
                 quoteWindow.style.backgroundSize = 'cover';
                 quoteWindow.style.backgroundPosition = 'center';
             } else if (btn.classList.contains('quote5')) {
-                p.textContent = '99999';
+                p.textContent = '"Your present and future are a projection of your thinking."';
                 quoteWindow.style.background = 'linear-gradient(rgba(0, 0, 0, 0.683), rgba(0, 0, 0, 0.725)), url(../images/wallpaper4-min.jpg)';
                 quoteWindow.style.backgroundSize = 'cover';
                 quoteWindow.style.backgroundPosition = 'center';
             } else if (btn.classList.contains('quote6')) {
-                p.textContent = '99999';
+                p.textContent = '"My goal is to give you a rod you can fish with for the rest of your life, not a fish you will only eat today."';
                 quoteWindow.style.background = 'linear-gradient(rgba(0, 0, 0, 0.683), rgba(0, 0, 0, 0.725)), url(../images/wallpaper6.jpg)';
                 quoteWindow.style.backgroundSize = 'cover';
                 quoteWindow.style.backgroundPosition = '80%';

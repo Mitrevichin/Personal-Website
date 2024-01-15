@@ -27,13 +27,11 @@
     align-items: center;
     line-height: 80px;
     z-index: 5;
-    position: absolute;
+    position: fixed;
     top: 0;
     left: -100%; /* Initially hide it by moving it off-screen to the left */
     transition: left 0.5s ease; /* Add a transition for smooth sliding effect */
 }
-
-
 
 .hidden-menu-items {
     font-size: 1.5rem;

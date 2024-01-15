@@ -1,8 +1,13 @@
+body {
+    position: relative;
+}
+
 .projects-page-wrapper {
     height: auto;
     width: 100vw;
     background-color: var(--black);
     position: absolute;
+    overflow-x: hidden;
 }
 
 .projects-text {
@@ -20,6 +25,10 @@
     grid-template-columns: repeat(3, 1fr);
     row-gap: 45px;
     position: relative;
+}
+
+.last-item {
+    display: none;
 }
 
 .project-item {
