@@ -10,7 +10,7 @@
 
     .btn-1200 {
         display: block;
-        position: fixed;
+        position: absolute;
     }
 
 }
@@ -106,10 +106,6 @@
         margin-bottom: 30px;
     }
 
-    .btn-1200-projects {
-        top: 20px;
-        right: 40px;
-    }
 }
 
 /************* 800 *************/
@@ -141,10 +137,9 @@
     }
 
     .project-item .img {
-        filter: grayscale(60%);
-        opacity: 0.5;
+        filter: grayscale(70%);
+        opacity: 0.4;
     }
-
 }
 
 /************* 700 *************/
@@ -178,5 +173,113 @@
 
     .projects-container {
         margin-left: 25%;
+    }
+}
+
+/*************520*************/
+@media screen and (max-width: 520px) {
+    .projects-part {
+        left: 5%;
+    }
+
+    .projects-container {
+        margin-left: 20%;
+    }
+}
+
+/*************500*************/
+@media screen and (max-width: 500px) {
+    .projects-part {
+        font-size: 4.2rem;
+        left: 5%;
+    }
+}
+
+/*************450*************/
+@media screen and (max-width: 450px) {
+    .projects-part {
+        font-size: 3.3rem;
+        left: 8%;
+    }
+
+    .projects-text {
+        font-size: 33px;
+        right: 15px;
+    }
+
+    .projects-container {
+        margin-left: 15%;
+    }
+}
+
+/*************425*************/
+@media screen and (max-width: 426px) {
+    .projects-container {
+        margin-left: 12%;
+    }
+
+    .projects-part {
+        left: 4%;
+    }
+}
+
+/*************375*************/
+@media screen and (max-width: 376px) {
+    .projects-part {
+        font-size: 2.9rem;
+        left: 5%;
+    }
+
+    .projects-text {
+        right: 9%;
+        font-size: 28px;
+    }
+
+    .project-item {
+        width: 285px;
+        height: 200px;
+    }
+
+    .text {
+        font-size: 1rem;
+    }
+}
+
+/*************350*************/
+@media screen and (max-width: 350px) {
+    .projects-container {
+        margin-left: 10%;
+    }
+
+    .project-item {
+        width: 275px;
+        height: 200px;
+    }
+}
+
+/*************325*************/
+@media screen and (max-width: 325px) {
+    .projects-part {
+        font-size: 2.8rem;
+        left: 1.5%;
+    }
+
+    .projects-text {
+        right: 11%;
+        font-size: 27px;
+    }
+
+    .projects-container {
+        margin-left: 8%;
+        row-gap: 20px;
+    }
+
+    .project-item {
+        width: 265px;
+        height: 190px;
+    }
+
+    .last-item {
+        margin-bottom: -40px;
     }
 }
