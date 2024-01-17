@@ -14,10 +14,23 @@
 
 <body>
     <section class="about-wrapper">
+        <!-- Hidden menu -->
+        <nav class="hidden-nav about-hidden-nav">
+            <a href="../html/index.html" class="hidden-menu-items">Home</a>
+            <a href="../html/about.html" class="hidden-menu-items">About</a>
+            <a href="../html/skills.html" class="hidden-menu-items">skills</a>
+            <a href="../html/projects.html" class="hidden-menu-items">Projects</a>
+            <a href="../html/contact.html" class="hidden-menu-items">Contact</a>
+        </nav>
+
+        <!-- Button less 1200px -->
+        <button type="button" class="btn-1200 about-btn-1200">
+            <i class="fa fa-bars" id="menuIcon"></i>
+        </button>
 
         <!-- UPPER TEXT -->
         <div class="upper-text">
-            <span class="background-text projects-part">Who I Am
+            <span class="background-text projects-part about-background">Who I Am
                 <span class="front-text about-text">About
                     <span class="yellow-word">Me</span>
                 </span>
@@ -39,9 +52,7 @@
                     <span class="yellow-bracket">}</span> 
                     </code>
                 </div>
-            </div>
-
-            <!-- OBj ABOUT -->
+                <!-- OBj ABOUT -->
             <div class="obj-about">
                 <code class="about">const <span class="yellow-bracket">about</span> = <span class="yellow-bracket">{</span> <br>
                     &nbsp; &nbsp; &nbsp; education: "Business Administration", <br>
@@ -50,6 +61,9 @@
                     <span class="yellow-bracket">}</span> 
                 </code>
             </div>
+            </div>
+
+            
 
             <!-- ARRAY -->
             <div class="arr">
@@ -214,7 +228,7 @@
         </main>
 
         <!-- NAV -->
-        <nav class="right-nav skills-nav">
+        <nav class="right-nav about-nav">
             <ul>
                 <li>
                     <a class="nav-links" href="../html/index.html">
@@ -256,7 +270,7 @@
         <button class="quote-btn-close"><i class="fa-solid fa-xmark"></i></button>
     </div>
     <div class="overlay"></div>
-    <script src="/js/app.js"></script>
+    <script src="/js/script.js"></script>
 </body>
 
 </html>

@@ -15,6 +15,7 @@
     @media screen and (max-width: 1200px) {
         .front-page {
             background: var(--black);
+            overflow: auto;
         }
 
         .btn-1200 {

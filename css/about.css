@@ -20,6 +20,7 @@
     display: flex;
     gap: 70px;
     justify-content: center;
+    position: relative;
 }
 
 .pic-box {
@@ -51,7 +52,7 @@
 
 .obj-about {
     position: absolute;
-    top: 5%;
+    top: 55%;
     left: 55%;
     line-height: 28px;
 }
@@ -499,4 +500,10 @@
 
 #progress:hover {
     transform: translateY(-6px);
+}
+
+.about-nav {
+    position: fixed;
+    top: 27%;
+    left: 96%;
 }

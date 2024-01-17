@@ -110,6 +110,11 @@
 
 /************* 800 *************/
 @media screen and (max-width: 800px) {
+    .upper-text {
+        margin-left: 15%;
+        margin-top: 100px;
+    }
+
     .projects-container {
         margin-left: 20%;
     }
@@ -121,12 +126,12 @@
 
     .projects-text {
         font-size: 50px;
-        right: 5%;
+        right: 10%;
     }
 }
 
 /************* 767 *************/
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 769px) {
     .project-item {
         border-bottom: 1px solid var(--yellow);
     }
@@ -219,7 +224,11 @@
     }
 
     .projects-part {
-        left: 4%;
+        margin-left: -10px;
+    }
+
+    .projects-text {
+        font-size: 35px;
     }
 }
 

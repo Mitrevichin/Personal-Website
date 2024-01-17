@@ -5,7 +5,7 @@
     background: linear-gradient(78deg, rgba(255, 180, 0, 1) 21%, rgba(17, 17, 17, 1) 21%);
     display: flex;
     justify-content: center;
-    overflow: scroll;
+    overflow: hidden;
 }
 
 .inner-container-front-page {
@@ -46,15 +46,14 @@
     color: rgb(233, 219, 219);
 }
 
-/* .hidden-menu-items:hover {
+/* .hidden-nav a:visited{
     cursor: pointer;
-    color: var(--yellow);
+    color: rgb(233, 219, 219);
     text-shadow: 0 2px 2px black;
 } */
 
-.hidden-menu-items:active,
-.hidden-menu-items:focus {
-    color: var(--yellow);
+.hidden-nav a:active {
+    color: var(--yellow) !important;
 }
 
 .btn-1200 {
