@@ -49,6 +49,7 @@
 
     .obj-about {
         left: 50%;
+        margin-left: -50px;
     }
 
     .obj-person {
@@ -96,6 +97,7 @@
 
     .obj-about {
         top: 72%;
+        margin-left: 0;
     }
 
     .arr {
@@ -110,6 +112,10 @@
     .about-text {
         left: 20%;
         top: 16%;
+    }
+
+    .desc {
+        margin-left: 120px;
     }
 }
 
@@ -173,6 +179,15 @@
         height: 350px;
     }
 
+    .desc {
+        margin-left: 48px;
+        width: 85%;
+    }
+
+    .par-desc {
+        text-align: justify;
+    }
+
 }
 
 /************* 750 *************/
@@ -204,6 +219,10 @@
     .about-btn-1200 {
         right: 25px;
     }
+
+    .desc {
+        margin-left: 52px;
+    }
 }
 
 /************* 600 *************/
@@ -221,6 +240,10 @@
 
     .pic-box {
         min-width: 50%;
+    }
+
+    .desc {
+        margin-left: 40px;
     }
 }
 
@@ -241,6 +264,21 @@
         border-radius: 50%;
         width: 400px;
         height: 400px;
+    }
+
+    .desc {
+        margin-left: 30px;
+        width: 87%;
+    }
+
+    .par-desc {
+        text-align: justify;
+    }
+
+    .h4-description {
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 }
 
@@ -305,6 +343,14 @@
     .hidden-word {
         display: none;
     }
+
+    .desc {
+        margin-left: 20px;
+    }
+
+    .h4-description {
+        margin-top: -30px;
+    }
 }
 
 /************* 376 *************/
@@ -334,6 +380,10 @@
     .about-btn-1200 {
         top: 15px;
         right: 15px;
+    }
+
+    .desc {
+        margin-left: 17px;
     }
 }
 
@@ -371,5 +421,9 @@
 
     .obj-person {
         margin-bottom: 0;
+    }
+
+    .desc {
+        margin-left: 17px;
     }
 }

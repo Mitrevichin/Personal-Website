@@ -33,6 +33,7 @@
     max-width: 100%;
     display: block;
     border-radius: 50%;
+    border: 5px solid #222;
     outline: 2px solid var(--yellow);
     outline-offset: 20px;
 }
