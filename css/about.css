@@ -134,6 +134,8 @@
     font-weight: 600;
 }
 
+
+/******************************** LIFE SECTION ****************************/
 .life {
     margin-left: 180px;
 }
@@ -141,13 +143,14 @@
 .hard-work,
 .planning,
 .preparation {
-    width: 50%;
+    max-width: 650px;
     height: 350px;
     margin-top: 50px;
     margin-bottom: 60px;
     border-radius: 10px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.68), rgba(0, 0, 0, 0.626)), url(../images/hard-work.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.784), rgba(0, 0, 0, 0.809)), url(../images/hard-work.jpg);
     background-position: center center;
+    background-size: cover;
     display: flex;
     justify-content: start;
     align-items: center;
@@ -215,7 +218,7 @@
 }
 
 .line-1 {
-    width: 10%;
+    width: 10.5%;
 }
 
 .line-2 {
