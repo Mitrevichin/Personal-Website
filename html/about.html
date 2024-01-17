@@ -40,7 +40,7 @@
         <main class="main">
 
             <!-- PIC BOX + OBJ PERSON -->
-            <div class="pic-obj-person-wrapper">
+            <div class="pic-obj-person-obj-about-wrapper">
                 <div class="pic-box">
                     <img src="../images/petar5.jpg" alt="Petar Picture">
                 </div>
@@ -55,7 +55,7 @@
                 <!-- OBj ABOUT -->
             <div class="obj-about">
                 <code class="about">const <span class="yellow-bracket">about</span> = <span class="yellow-bracket">{</span> <br>
-                    &nbsp; &nbsp; &nbsp; education: "Business Administration", <br>
+                    &nbsp; &nbsp; &nbsp; education: "Business <span class="hidden-word">Administration</span>", <br>
                     &nbsp; &nbsp; &nbsp; hobby: "Styling buttons", <br>
                     &nbsp; &nbsp; &nbsp; languages: ["English", "Bulgarian"] <br>
                     <span class="yellow-bracket">}</span> 
@@ -63,12 +63,17 @@
             </div>
             </div>
 
-            
-
             <!-- ARRAY -->
-            <div class="arr">
+            <div class="arr original-arr">
                 <code class="arr-values">
-                    const <span class="yellow-bracket">valueSystem</span> = ["Integrity", "Loyalty", "Honesty", "Humbleness"]
+                    const <span class="yellow-bracket">valueSystem</span> = ["Integrity", "Loyalty", "Honesty", "Humbleness"];
+                </code>
+            </div>
+
+            <!-- Hidden array -->
+            <div class="arr hidden-arr">
+                <code class="arr-values hidden-arr-values">
+                    const <span class="yellow-bracket">valueSystem</span> = <span class="yellow-bracket">[</span> <br> <span class="arr-properties">&nbsp;"Integrity", <br> "Loyalty", <br>&nbsp; "Honesty", <br> &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Humbleness" <br> </span> <span class="close-bracket yellow-bracket">];</span> 
                 </code>
             </div>
 

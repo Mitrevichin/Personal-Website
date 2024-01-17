@@ -14,7 +14,7 @@
     position: relative;
 }
 
-.pic-obj-person-wrapper {
+.pic-obj-person-obj-about-wrapper {
     margin: 0 auto;
     width: 80%;
     display: flex;
@@ -33,10 +33,11 @@
     max-width: 100%;
     display: block;
     border-radius: 50%;
+    outline: 2px solid var(--yellow);
+    outline-offset: 20px;
 }
 
 .obj-person {
-    width: 50%;
     position: relative;
     right: 80px;
     line-height: 28px;
@@ -63,14 +64,39 @@
 
 .arr {
     width: 70%;
-    margin: 100px auto 150px;
+    margin: 150px auto 150px;
     text-align: center;
 }
 
 .arr-values {
+    font-size: 1.2rem;
     padding: 10px 20px;
     border-radius: 10px;
     border: .1px solid var(--yellow);
+}
+
+/* Hidden array */
+.hidden-arr {
+    display: none;
+    position: relative;
+    font-size: 1.2rem;
+    
+}
+
+.hidden-arr-values {
+    border: none;
+    text-align: center;
+    line-height: 35px;
+}
+
+.arr-properties {
+    position: relative;
+    left: -25px;
+}
+
+.close-bracket {
+    position: relative;
+    left: -85px;
 }
 
 
@@ -446,7 +472,7 @@
 .quote-btn-close {
     font-size: 1.8rem;
     text-shadow: 0 3px 10px black;
-    
+
     color: white;
     background: transparent;
     border: none;

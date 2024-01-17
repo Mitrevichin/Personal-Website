@@ -1,3 +1,9 @@
+@media screen and (min-width: 1440px) {
+    .pic-obj-person-obj-about-wrapper {
+    margin-top: 150px;
+}
+}
+
 @media screen and (min-width: 1370px) and (max-width: 1450px) {
     .about-nav {
         display: none;
@@ -12,7 +18,7 @@
 @media screen and (max-width: 1450px) {
     .about-btn-1200 {
         top: 25px;
-        right: 40px;
+        right: 30px;
     }
 }
 
@@ -28,6 +34,10 @@
 
     .pic-box img {
         border: 5px solid #222;
+    }
+
+    .obj-about {
+        left: 40%;
     }
 }
 
@@ -46,17 +56,320 @@
     }
 }
 
+/************* MIN 1070 *************/
+@media screen and (min-width: 1070px) {
+    .pic-box {
+       position: relative;
+       left: -7%;
+    }
+
+    .pic-obj-person-obj-about-wrapper {
+        width: 90%;
+    }
+
+    .obj-person {
+        right: 200px;
+    }
+
+    .obj-about {
+        top: 53%;
+        left: 59%;
+        line-height: 28px;
+    }
+}
+
 /************* 1070 *************/
 @media screen and (max-width: 1070px) {
+    .pic-obj-person-obj-about-wrapper {
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
+    }
+
+    .pic-box {
+        margin: 0 0 20px 0;
+    }
+
+    .obj-person {
+        left: -25%;
+    }
+
+    .obj-about {
+        top: 72%;
+    }
+
     .arr {
         width: 75%;
     }
+
     .about-background {
         font-size: 6rem;
+        left: 37px;
     }
 
     .about-text {
         left: 20%;
         top: 16%;
+    }
+}
+
+/************* 1000 *************/
+@media screen and (max-width: 1000px) {
+    .arr {
+        width: 90%;
+    }
+
+}
+
+/************* 950 *************/
+@media screen and (max-width: 950px) {
+    .about-wrapper {
+        overflow-x: hidden;
+    }
+
+    .about-background {
+        font-size: 5.5rem;
+        left: 50px;
+    }
+
+    .about-text {
+        left: 22%;
+        top: 21%;
+    }
+
+    .pic-obj-person-obj-about-wrapper {
+        justify-content: center;
+    }
+
+    .obj-person {
+        position: static;
+        margin-bottom: 30px;
+    }
+
+    .obj-about {
+        position: static;
+    }
+
+    .pic-box {
+        min-width: 40%;
+    }
+
+    .pic-box img {
+        outline: 2px solid var(--yellow);
+        outline-offset: 20px;
+    }
+
+    .original-arr {
+        display: none;
+    }
+
+    .hidden-arr {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: 1px solid var(--yellow);
+        border-radius: 50%;
+        width: 500px;
+        height: 350px;
+    }
+
+}
+
+/************* 750 *************/
+@media screen and (max-width: 750px) {
+    .about-background {
+        font-size: 5rem;
+        left: 50px;
+    }
+
+    .about-text {
+        left: 20%;
+        top: 18%;
+    }
+}
+
+/************* 705 *************/
+@media screen and (max-width: 705px) {
+    .about-background {
+        font-size: 4.7rem;
+        left: 100px;
+    }
+
+    .about-text {
+        left: 20%;
+        top: 18%;
+        font-size: 2.8rem;
+    }
+
+    .about-btn-1200 {
+        right: 25px;
+    }
+}
+
+/************* 600 *************/
+@media screen and (max-width: 600px) {
+    .about-background {
+        font-size: 4.5rem;
+        left: 60px;
+    }
+
+    .about-text {
+        left: 22%;
+        top: 18%;
+        font-size: 2.8rem;
+    }
+
+    .pic-box {
+        min-width: 50%;
+    }
+}
+
+/************* 550 *************/
+@media screen and (max-width: 550px) {
+    .about-background {
+        font-size: 4rem;
+        left: 55px;
+    }
+
+    .about-text {
+        left: 22%;
+        top: 18%;
+        font-size: 2.4rem;
+    }
+
+    .hidden-arr {
+        border-radius: 50%;
+        width: 400px;
+        height: 400px;
+    }
+}
+
+/************* 500 *************/
+@media screen and (max-width: 500px) {
+    .about-background {
+        font-size: 3.2rem;
+        left: 55px;
+    }
+
+    .about-text {
+        left: 22%;
+        top: 15%;
+        font-size: 2rem;
+    }
+
+    .person,
+    .about,
+    .arr-values {
+        letter-spacing: .5px;
+        font-size: 1rem;
+        text-shadow: 1px 2px black;
+    }
+
+    .pic-box {
+        min-width: 60%;
+    }
+
+    .hidden-arr {
+        border-radius: 50%;
+        width: 320px;
+        height: 320px;
+        margin-top: 80px;
+    }
+}
+
+/************* 426 *************/
+@media screen and (max-width: 426px) {
+    .about-background {
+        font-size: 3rem;
+        left: 50px;
+    }
+
+    .about-text {
+        left: 24%;
+        top: 15%;
+        font-size: 1.8rem;
+    }
+
+    .person,
+    .about,
+    .arr-values {
+        letter-spacing: .5px;
+        font-size: 1rem;
+        text-shadow: 1px 2px black;
+    }
+
+    .hidden-arr-values {
+        line-height: 27px;
+    }
+
+    .hidden-word {
+        display: none;
+    }
+}
+
+/************* 376 *************/
+@media screen and (max-width: 376px) {
+    .about-background {
+        font-size: 2.6rem;
+        left: 50px;
+    }
+
+    .about-text {
+        left: 24%;
+        top: 19%;
+        font-size: 1.5rem;
+    }
+
+    .hidden-arr {
+        border-radius: 50%;
+        width: 300px;
+        height: 300px;
+        margin-top: 80px;
+    }
+
+    .pic-box {
+        min-width: 70%;
+    }
+
+    .about-btn-1200 {
+        top: 15px;
+        right: 15px;
+    }
+}
+
+/************* 321 *************/
+@media screen and (max-width: 321px) {
+    .about-background {
+        font-size: 2.4rem;
+        left: 30px;
+    }
+
+    .about-text {
+        left: 24%;
+        top: 19%;
+        font-size: 1.4rem;
+    }
+
+    .hidden-word {
+        display: none;
+    }
+
+    .hidden-arr {
+        border-radius: 50%;
+        width: 270px;
+        height: 270px;
+        margin-top: 80px;
+    }
+
+    .person,
+    .about,
+    .arr-values {
+        letter-spacing: .5px;
+        font-size: .9rem;
+        text-shadow: 1px 2px black;
+    }
+
+    .obj-person {
+        margin-bottom: 0;
     }
 }
