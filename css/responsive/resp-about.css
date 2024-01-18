@@ -11,6 +11,7 @@
 
     .about-btn-1200 {
         display: block;
+        position: fixed;
     }
 }
 
@@ -57,7 +58,8 @@
 
     .desc,
     .life,
-    .interests {
+    .interests,
+    .closer {
         margin-left: 120px;
     }
 
@@ -70,41 +72,45 @@
     .line-1 {
         width: 10.5%;
     }
-    
+
     .line-2 {
         width: 64%;
     }
-    
+
     .line-3 {
         width: 15%;
     }
-    
+
     .line-4 {
         width: 53%;
     }
-    
+
     .line-5 {
         width: 20%;
     }
-    
+
     .line-6 {
         width: 45%;
     }
-    
+
     .line-7 {
         width: 25%;
     }
-    
+
     .line-8 {
         width: 34%;
     }
-    
+
     .line-9 {
         width: 30%;
     }
-    
+
     .line-10 {
         width: 26.7%;
+    }
+    
+    .wedding-wrapper {
+        margin-left: -30px;
     }
 }
 
@@ -155,7 +161,7 @@
     }
 
     .pic-box {
-        margin: 0 0 20px 0;
+        margin: 0 0 50px 0;
     }
 
     .obj-person {
@@ -163,11 +169,12 @@
     }
 
     .obj-about {
-        top: 72%;
+        top: 74.5%;
         margin-left: 0;
     }
 
     .arr {
+        margin-top: 100px;
         width: 75%;
     }
 
@@ -200,15 +207,45 @@
     .preparation {
         margin-left: 180px;
     }
+
+    .h5-closer {
+        font-size: 1.3rem;
+        letter-spacing: 5px;
+    }
+
+    .h5-closer::after {
+        width: 180px;
+    }
 }
 
 /************* 1025 *************/
 @media screen and (max-width: 1025px) {
+
     .hard-work,
     .planning,
     .preparation {
         width: 550px;
         height: 300px;
+    }
+
+    .line-2 {
+        width: 68.5%;
+    }
+
+    .line-4 {
+        width: 56%;
+    }
+
+    .line-6 {
+        width: 47%;
+    }
+
+    .line-8 {
+        width: 34.5%;
+    }
+
+    .line-10 {
+        width: 26.7%;
     }
 }
 
@@ -246,8 +283,8 @@
     }
 
     .pic-box img {
-        outline: 2px solid var(--yellow);
-        outline-offset: 20px;
+        outline: 1px solid var(--yellow);
+        outline-offset: 10px;
     }
 
     .original-arr {
@@ -271,8 +308,16 @@
         width: 85%;
     }
 
+    .closer {
+        margin-left: 65px;
+    }
+
     .par-desc {
         text-align: justify;
+    }
+
+    .wedding-wrapper {
+        margin-left: 0px;
     }
 
 }
@@ -295,6 +340,7 @@
 
 /************* 850 *************/
 @media screen and (max-width: 850px) {
+
     .preparation,
     .planning,
     .hard-work {
@@ -308,21 +354,29 @@
     .line-2 {
         width: 70%;
     }
-    
+
     .line-4 {
         width: 57%;
     }
-    
+
     .line-6 {
         width: 48%;
     }
-    
+
     .line-8 {
         width: 34.5%;
     }
-    
+
     .line-10 {
         width: 26.7%;
+    }
+
+    .pic {
+        width: 45%;
+    }
+
+    .pic3 {
+        clip-path: polygon(100% 0%, 75% 50%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
     }
 }
 
@@ -369,21 +423,28 @@
     .line-2 {
         width: 65%;
     }
-    
+
     .line-4 {
         width: 52%;
     }
-    
+
     .line-6 {
         width: 43%;
     }
-    
+
     .line-8 {
         width: 29.5%;
     }
-    
+
     .line-10 {
         width: 21.7%;
+    }
+}
+
+/************* 670 *************/
+@media screen and (max-width: 670px) {
+    .h5-closer {
+        width: 50%;
     }
 }
 
@@ -392,11 +453,11 @@
     .line-1 {
         width: 5.5%;
     }
-    
+
     .line-3 {
         width: 10%;
     }
-    
+
     .line-5 {
         width: 15%;
     }
@@ -404,7 +465,7 @@
     .line-7 {
         width: 20%;
     }
- 
+
     .line-9 {
         width: 25%;
     }
@@ -450,19 +511,19 @@
     .line-2 {
         width: 68%;
     }
-    
+
     .line-4 {
         width: 52%;
     }
-    
+
     .line-6 {
         width: 41.5%;
     }
-    
+
     .line-8 {
         width: 25.5%;
     }
-    
+
     .line-10 {
         width: 16.7%;
     }
@@ -517,10 +578,35 @@
     .line-8,
     .line-10 {
         display: none;
-    } 
+    }
 
     .hobby-text {
         margin-left: 10px;
+    }
+
+    .pic {
+        width: 85%;
+    }
+
+    .pic1,
+    .pic-2,
+    .pic3{
+        clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
+    }
+
+    .pic4,
+    .pic5,
+    .pic6{
+        clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
+    }
+
+    .h4-closer {
+        margin-left: 110px;
+    }
+
+    .h5-closer {
+        margin-left: 0;
+        width: 70%;
     }
 }
 
@@ -557,7 +643,7 @@
     }
 
     .life {
-        margin-left: 50px;  
+        margin-left: 50px;
     }
 
     .interests {
@@ -579,6 +665,10 @@
 
     .philosophy {
         font-size: 1.2rem;
+    }
+
+    .h4-closer {
+        margin-left: 75px;
     }
 }
 
@@ -646,6 +736,15 @@
     .line-hobby-text {
         margin-bottom: 40px;
     }
+
+    .h4-closer {
+        margin-left: 60px;
+    }
+
+    .h5-closer {
+        font-size: 1.2rem;
+        width: 90%;
+    }
 }
 
 /************* 376 *************/
@@ -682,7 +781,7 @@
     }
 
     .about-btn-1200 {
-        top: 20px;
+        top: 13px;
         right: 20px;
         width: 45px;
         height: 45px;
@@ -713,6 +812,18 @@
 
     .h4-interests {
         width: 80%;
+    }
+
+    .h4-closer {
+        margin-left: 25px;
+    }
+
+    .pic {
+        width: 100%;
+    }
+
+    .wedding-wrapper {
+        margin-left: -30px;
     }
 }
 
@@ -766,4 +877,14 @@
 
     .h4-interests {
         margin-left: 50px;
+    }
+
+    .h4-closer {
+        margin-left: 0;
+    }
+
+    .h5-closer {
+        margin-left: -20px;
+    }
+
 }
