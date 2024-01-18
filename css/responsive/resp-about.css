@@ -1,8 +1,86 @@
+/* QUOTE WINDOWM INITIAL */
+@media screen and (max-width: 1655px) {
+    .quote-window {
+        left: 50px;
+    }
+}
+
+@media screen and (max-width: 1650px) {
+    .quote-window {
+        width: 1350px;
+        height: 750px;
+        left: 150px;
+    }
+}
+
+@media screen and (max-width: 1550px) {
+    .quote-window {
+        left: 70px;
+    }
+}
+
+@media screen and (max-width: 1500px) {
+    .quote-window {
+        left: 70px;
+    }
+}
+
+@media screen and (max-width: 1460px) {
+    .quote-window {
+        width: 1250px;
+        height: 700px;
+        left: 90px;
+    }
+}
+
+@media screen and (max-width: 1400px) {
+    .quote-window {
+        width: 1250px;
+        height: 700px;
+        left: 2%;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .quote-window {
+        width: 1150px;
+        height: 650px;
+        left: 4.5%;
+    }
+}
+
+@media screen and (max-width: 1220px) {
+    .quote-window {
+        width: 1150px;
+        height: 650px;
+        left: 2%;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .quote-window {
+        width: 1050px;
+        height: 600px;
+        left: 5%;
+    }
+}
+
+@media screen and (max-width: 1100px) {
+    .quote-window {
+        width: 1000px;
+        height: 550px;
+        left: 4%;
+        top: 5%;
+    }
+}
+/* END QUOTE WINDOWM INITIAL */
+
 @media screen and (min-width: 1440px) {
     .pic-obj-person-obj-about-wrapper {
         margin-top: 150px;
     }
 }
+
 
 @media screen and (min-width: 1370px) and (max-width: 1450px) {
     .about-nav {
@@ -108,7 +186,7 @@
     .line-10 {
         width: 26.7%;
     }
-    
+
     .wedding-wrapper {
         margin-left: -30px;
     }
@@ -192,6 +270,13 @@
     .life {
         margin-left: 120px;
     }
+
+    .quote-window {
+        width: 970px;
+        height: 500px;
+        left: 3%;
+        top: 7%;
+    }
 }
 
 /************* 1000 *************/
@@ -215,6 +300,13 @@
 
     .h5-closer::after {
         width: 180px;
+    }
+
+    .quote-window {
+        width: 930px;
+        height: 500px;
+        left: 3%;
+        top: 7%;
     }
 }
 
@@ -246,6 +338,17 @@
 
     .line-10 {
         width: 26.7%;
+    }
+
+    .h5-closer {
+        margin-top: -50px;
+    }
+
+    .quote-window {
+        width: 930px;
+        height: 500px;
+        left: 3.5%;
+        top: 12%;
     }
 }
 
@@ -320,6 +423,13 @@
         margin-left: 0px;
     }
 
+    .quote-window {
+        width: 830px;
+        height: 500px;
+        left: 5%;
+        top: 7%;
+    }
+
 }
 
 /************* 900 *************/
@@ -334,6 +444,13 @@
 
     .hobby-text {
         font-size: 1.1rem;
+    }
+
+    .quote-window {
+        width: 730px;
+        height: 500px;
+        left: 7%;
+        top: 7%;
     }
 
 }
@@ -378,6 +495,27 @@
     .pic3 {
         clip-path: polygon(100% 0%, 75% 50%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
     }
+
+    .h5-closer::after {
+        top: 40px;
+    }
+
+    .quote-window {
+        width: 730px;
+        height: 500px;
+        left: 4%;
+        top: 14%;
+    }
+}
+
+/************* 768 *************/
+@media screen and (max-width: 769px) {
+    .quote-window {
+        width: 730px;
+        height: 500px;
+        left: 2%;
+        top: 14%;
+    }
 }
 
 /************* 750 *************/
@@ -390,6 +528,13 @@
     .about-text {
         left: 20%;
         top: 18%;
+    }
+
+    .quote-window {
+        width: 630px;
+        height: 450px;
+        left: 6%;
+        top: 17%;
     }
 }
 
@@ -439,12 +584,26 @@
     .line-10 {
         width: 21.7%;
     }
+
+    .quote-window {
+        width: 630px;
+        height: 450px;
+        left: 4%;
+        top: 17%;
+    }
 }
 
 /************* 670 *************/
 @media screen and (max-width: 670px) {
     .h5-closer {
         width: 50%;
+    }
+
+    .quote-window {
+        width: 600px;
+        height: 400px;
+        left: 3.5%;
+        top: 20%;
     }
 }
 
@@ -468,6 +627,21 @@
 
     .line-9 {
         width: 25%;
+    }
+
+    .quote-window {
+        width: 550px;
+        height: 350px;
+        left: 5%;
+        top: 22%;
+    }
+
+    .quote-window p {
+        font-size: 1.2rem;
+    }
+
+    .quote-btn-close {
+        font-size: 1.5rem;
     }
 }
 
@@ -526,6 +700,13 @@
 
     .line-10 {
         width: 16.7%;
+    }
+
+    .quote-window {
+        width: 500px;
+        height: 350px;
+        left: 8%;
+        top: 24%;
     }
 }
 
@@ -590,13 +771,13 @@
 
     .pic1,
     .pic-2,
-    .pic3{
+    .pic3 {
         clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
     }
 
     .pic4,
     .pic5,
-    .pic6{
+    .pic6 {
         clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
     }
 
@@ -607,6 +788,13 @@
     .h5-closer {
         margin-left: 0;
         width: 70%;
+    }
+
+    .quote-window {
+        width: 470px;
+        height: 300px;
+        left: 6%;
+        top: 24%;
     }
 }
 
@@ -669,6 +857,21 @@
 
     .h4-closer {
         margin-left: 75px;
+    }
+
+    .quote-window {
+        width: 400px;
+        height: 300px;
+        left: 8%;
+        top: 28%;
+    }
+
+    .quote-window p {
+        font-size: 1.1rem;
+    }
+
+    .quote-btn-close {
+        font-size: 1.3rem;
     }
 }
 
@@ -744,6 +947,21 @@
     .h5-closer {
         font-size: 1.2rem;
         width: 90%;
+    }
+
+    .h5-books {
+        margin-left: -40px;
+    }
+
+    .quote-window {
+        width: 360px;
+        height: 350px;
+        left: 8%;
+        top: 28%;
+    }
+
+    .quote-window p {
+        line-height: 30px;
     }
 }
 
@@ -825,6 +1043,26 @@
     .wedding-wrapper {
         margin-left: -30px;
     }
+
+    .h5-books {
+        margin-left: -40px;
+    }
+
+    .quote-window {
+        width: 300px;
+        height: 300px;
+        left: 9.5%;
+        top: 28%;
+    }
+
+    .quote-window p {
+        font-size: .9rem;
+        line-height: 25px;
+    }
+
+    .quote-btn-close {
+        font-size: 1.1rem;
+    }
 }
 
 /************* 321 *************/
@@ -885,6 +1123,17 @@
 
     .h5-closer {
         margin-left: -20px;
+    }
+
+    .h5-books {
+        margin-left: -40px;
+    }
+
+    .quote-window {
+        width: 280px;
+        height: 280px;
+        left: 6%;
+        top: 28%;
     }
 
 }

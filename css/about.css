@@ -471,12 +471,12 @@
     clip-path: ellipse(47% 41% at 50% 50%);
     border: 3px solid white;
     z-index: 1000;
+    text-align: center;
 }
 
 .quote-btn-close {
     font-size: 1.8rem;
     text-shadow: 0 3px 10px black;
-
     color: white;
     background: transparent;
     border: none;
