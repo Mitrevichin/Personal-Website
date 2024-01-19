@@ -73,13 +73,20 @@ function quotation() {
     let quoteBtnClose = document.querySelector('.quote-btn-close');
     let quoteBtnsOpen = document.querySelectorAll('.quote');
     let pageWrapper = document.querySelector('.about-wrapper');
-    let overlay = document.querySelector('.overlay');
 
     Array.from(quoteBtnsOpen).forEach(btn => {
         btn.addEventListener('click', (e) => {
             let p = document.createElement('p');
-            quoteWindow.style.bottom = '-2%';
-            pageWrapper.style.filter = 'blur(10px)';
+            
+            if (window.innerWidth >= 750) {
+                quoteWindow.style.bottom = '0%';
+                pageWrapper.style.filter = 'blur(10px)';
+            } else {
+                quoteWindow.style.bottom = '25%';
+                pageWrapper.style.filter = 'blur(10px)';
+            }
+
+           
 
             p.textContent = '';
 
@@ -134,11 +141,25 @@ function quotation() {
                 pageWrapper.style.filter = 'none';
             });
         });
-        });
+    });
 }
 
 quotation();
 
+
+// Media query
+
+    // const mediaQuery = window.matchMedia('(max-width: 750px)');
+
+    // function handleMediaQueryChange(mq) {
+    //     if (mq.matches) {
+    //         // Apply styles for smaller screens
+    //         quoteWindow.style.bottom = '20%';
+    //     } 
+    // }
+
+    // // Initial check
+    // handleMediaQueryChange(mediaQuery);
 
 
 

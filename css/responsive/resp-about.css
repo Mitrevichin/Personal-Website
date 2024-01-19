@@ -49,7 +49,7 @@
     }
 }
 
-@media screen and (max-width: 1220px) {
+@media screen and (max-width: 1235px) {
     .quote-window {
         width: 1150px;
         height: 650px;
@@ -70,9 +70,9 @@
         width: 1000px;
         height: 550px;
         left: 4%;
-        top: 5%;
     }
 }
+
 /* END QUOTE WINDOWM INITIAL */
 
 @media screen and (min-width: 1440px) {
@@ -206,6 +206,7 @@
     .obj-person {
         right: 100px;
     }
+
 }
 
 /************* MIN 1070 *************/
@@ -275,7 +276,7 @@
         width: 970px;
         height: 500px;
         left: 3%;
-        top: 7%;
+        /* top: 7%; */
     }
 }
 
@@ -306,834 +307,909 @@
         width: 930px;
         height: 500px;
         left: 3%;
-        top: 7%;
-    }
-}
-
-/************* 1025 *************/
-@media screen and (max-width: 1025px) {
-
-    .hard-work,
-    .planning,
-    .preparation {
-        width: 550px;
-        height: 300px;
     }
 
-    .line-2 {
-        width: 68.5%;
-    }
-
-    .line-4 {
-        width: 56%;
-    }
-
-    .line-6 {
-        width: 47%;
-    }
-
-    .line-8 {
-        width: 34.5%;
-    }
-
-    .line-10 {
-        width: 26.7%;
-    }
-
-    .h5-closer {
-        margin-top: -50px;
-    }
-
-    .quote-window {
-        width: 930px;
-        height: 500px;
-        left: 3.5%;
-        top: 12%;
-    }
-}
-
-/************* 950 *************/
-@media screen and (max-width: 950px) {
-    .about-wrapper {
-        overflow-x: hidden;
-    }
-
-    .about-background {
-        font-size: 5.5rem;
-        left: 50px;
-    }
-
-    .about-text {
-        left: 22%;
-        top: 21%;
-    }
-
-    .pic-obj-person-obj-about-wrapper {
-        justify-content: center;
-    }
-
-    .obj-person {
-        position: static;
-        margin-bottom: 30px;
-    }
-
-    .obj-about {
-        position: static;
-    }
-
-    .pic-box {
-        min-width: 40%;
-    }
-
-    .pic-box img {
-        outline: 1px solid var(--yellow);
-        outline-offset: 10px;
-    }
-
-    .original-arr {
-        display: none;
-    }
-
-    .hidden-arr {
+    .quote {
+        word-break: wrap;
         display: flex;
         justify-content: center;
         align-items: center;
-        border: 1px solid var(--yellow);
-        border-radius: 50%;
-        width: 500px;
-        height: 350px;
-    }
-
-    .desc,
-    .life,
-    .interests {
-        margin-left: 65px;
-        width: 85%;
-    }
-
-    .closer {
-        margin-left: 65px;
-    }
-
-    .par-desc {
-        text-align: justify;
-    }
-
-    .wedding-wrapper {
-        margin-left: 0px;
-    }
-
-    .quote-window {
-        width: 830px;
-        height: 500px;
-        left: 5%;
-        top: 7%;
-    }
-
-}
-
-/************* 900 *************/
-@media screen and (max-width: 900px) {
-    .planning {
-        margin-left: 70px;
-    }
-
-    .preparation {
-        margin-left: 150px;
-    }
-
-    .hobby-text {
-        font-size: 1.1rem;
-    }
-
-    .quote-window {
-        width: 730px;
-        height: 500px;
-        left: 7%;
-        top: 7%;
-    }
-
-}
-
-/************* 850 *************/
-@media screen and (max-width: 850px) {
-
-    .preparation,
-    .planning,
-    .hard-work {
-        margin: 50px auto 70px;
-    }
-
-    .hobby-text {
-        font-size: 1rem;
-    }
-
-    .line-2 {
-        width: 70%;
-    }
-
-    .line-4 {
-        width: 57%;
-    }
-
-    .line-6 {
-        width: 48%;
-    }
-
-    .line-8 {
-        width: 34.5%;
-    }
-
-    .line-10 {
-        width: 26.7%;
-    }
-
-    .pic {
-        width: 45%;
-    }
-
-    .pic3 {
-        clip-path: polygon(100% 0%, 75% 50%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
-    }
-
-    .h5-closer::after {
-        top: 40px;
-    }
-
-    .quote-window {
-        width: 730px;
-        height: 500px;
-        left: 4%;
-        top: 14%;
-    }
-}
-
-/************* 768 *************/
-@media screen and (max-width: 769px) {
-    .quote-window {
-        width: 730px;
-        height: 500px;
-        left: 2%;
-        top: 14%;
-    }
-}
-
-/************* 750 *************/
-@media screen and (max-width: 750px) {
-    .about-background {
-        font-size: 5rem;
-        left: 50px;
-    }
-
-    .about-text {
-        left: 20%;
-        top: 18%;
-    }
-
-    .quote-window {
-        width: 630px;
-        height: 450px;
-        left: 6%;
-        top: 17%;
-    }
-}
-
-/************* 705 *************/
-@media screen and (max-width: 705px) {
-    .about-background {
-        font-size: 4.7rem;
-        left: 100px;
-    }
-
-    .about-text {
-        left: 20%;
-        top: 18%;
-        font-size: 2.8rem;
-    }
-
-    .about-btn-1200 {
-        right: 25px;
-    }
-
-    .desc {
-        margin-left: 52px;
-    }
-
-    .preparation,
-    .planning,
-    .hard-work {
-        width: 500px;
-    }
-
-    .line-2 {
-        width: 65%;
-    }
-
-    .line-4 {
-        width: 52%;
-    }
-
-    .line-6 {
-        width: 43%;
-    }
-
-    .line-8 {
-        width: 29.5%;
-    }
-
-    .line-10 {
-        width: 21.7%;
-    }
-
-    .quote-window {
-        width: 630px;
-        height: 450px;
-        left: 4%;
-        top: 17%;
-    }
-}
-
-/************* 670 *************/
-@media screen and (max-width: 670px) {
-    .h5-closer {
-        width: 50%;
-    }
-
-    .quote-window {
-        width: 600px;
-        height: 400px;
-        left: 3.5%;
-        top: 20%;
-    }
-}
-
-/************* 630 *************/
-@media screen and (max-width: 630px) {
-    .line-1 {
-        width: 5.5%;
-    }
-
-    .line-3 {
-        width: 10%;
-    }
-
-    .line-5 {
-        width: 15%;
-    }
-
-    .line-7 {
-        width: 20%;
-    }
-
-    .line-9 {
-        width: 25%;
-    }
-
-    .quote-window {
-        width: 550px;
-        height: 350px;
-        left: 5%;
-        top: 22%;
-    }
-
-    .quote-window p {
         font-size: 1.2rem;
+        width: 100.5%;
+        height: 25%;
+        border-radius: 0;
+        border-bottom-left-radius: 5px;
+        border-bottom-right-radius: 5px;
+        opacity: 1;
+        position: absolute;
+        top: 88%;
+        left: 50%;
     }
 
-    .quote-btn-close {
-        font-size: 1.5rem;
-    }
-}
-
-
-/************* 600 *************/
-@media screen and (max-width: 600px) {
-    .about-background {
-        font-size: 4.5rem;
-        left: 60px;
-    }
-
-    .about-text {
-        left: 22%;
-        top: 18%;
-        font-size: 2.8rem;
-    }
-
-    .pic-box {
-        min-width: 50%;
-    }
-
-    .desc {
-        margin-left: 40px;
-    }
-
-    .life {
-        width: 78%;
-    }
-
-    .preparation,
-    .planning,
-    .hard-work {
-        width: 400px;
-        height: 250px;
-    }
-
-    .philosophy {
-        font-size: 1.4rem;
-    }
-
-    .line-2 {
-        width: 68%;
-    }
-
-    .line-4 {
-        width: 52%;
-    }
-
-    .line-6 {
-        width: 41.5%;
-    }
-
-    .line-8 {
-        width: 25.5%;
-    }
-
-    .line-10 {
-        width: 16.7%;
-    }
-
-    .quote-window {
-        width: 500px;
-        height: 350px;
-        left: 8%;
-        top: 24%;
-    }
-}
-
-/************* 550 *************/
-@media screen and (max-width: 550px) {
-    .about-background {
-        font-size: 4rem;
-        left: 55px;
-    }
-
-    .about-text {
-        left: 22%;
-        top: 18%;
-        font-size: 2.4rem;
-    }
-
-    .hidden-arr {
-        border-radius: 50%;
-        width: 400px;
-        height: 400px;
-    }
-
-    .desc {
-        margin-left: 30px;
-        width: 87%;
-    }
-
-    .life {
-        width: 75%;
-    }
-
-    .par-desc {
-        text-align: justify;
-    }
-
-    .h4-description {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .h4-interests {
-        width: 50%;
-        margin: -10px auto 70px;
-    }
-
-    .line-2,
-    .line-4,
-    .line-6,
-    .line-8,
-    .line-10 {
-        display: none;
-    }
-
-    .hobby-text {
-        margin-left: 10px;
-    }
-
-    .pic {
-        width: 85%;
-    }
-
-    .pic1,
-    .pic-2,
-    .pic3 {
-        clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
-    }
-
-    .pic4,
-    .pic5,
-    .pic6 {
-        clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
-    }
-
-    .h4-closer {
-        margin-left: 110px;
-    }
-
-    .h5-closer {
-        margin-left: 0;
-        width: 70%;
-    }
-
-    .quote-window {
-        width: 470px;
-        height: 300px;
-        left: 6%;
-        top: 24%;
-    }
-}
-
-/************* 500 *************/
-@media screen and (max-width: 500px) {
-    .about-background {
-        font-size: 3.2rem;
-        left: 55px;
-    }
-
-    .about-text {
-        left: 22%;
-        top: 15%;
-        font-size: 2rem;
-    }
-
-    .person,
-    .about,
-    .arr-values {
-        letter-spacing: .5px;
-        font-size: 1rem;
-        text-shadow: 1px 2px black;
-    }
-
-    .pic-box {
-        min-width: 60%;
-    }
-
-    .hidden-arr {
-        border-radius: 50%;
-        width: 320px;
-        height: 320px;
-        margin-top: 80px;
-    }
-
-    .life {
-        margin-left: 50px;
-    }
-
-    .interests {
-        margin-left: 50px;
-    }
-
-    .h4-description {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-
-    .preparation,
-    .planning,
-    .hard-work {
-        width: 350px;
-        height: 200px;
-    }
-
-    .philosophy {
-        font-size: 1.2rem;
-    }
-
-    .h4-closer {
-        margin-left: 75px;
-    }
-
-    .quote-window {
-        width: 400px;
-        height: 300px;
-        left: 8%;
-        top: 28%;
-    }
-
-    .quote-window p {
-        font-size: 1.1rem;
-    }
-
-    .quote-btn-close {
-        font-size: 1.3rem;
-    }
-}
-
-/************* 426 *************/
-@media screen and (max-width: 426px) {
-    .about-background {
-        font-size: 3rem;
-        left: 50px;
-    }
-
-    .about-text {
-        left: 24%;
-        top: 15%;
-        font-size: 1.8rem;
-    }
-
-    .person,
-    .about,
-    .arr-values {
-        letter-spacing: .5px;
-        font-size: 1rem;
-        text-shadow: 1px 2px black;
-    }
-
-    .hidden-arr-values {
-        line-height: 27px;
-    }
-
-    .hidden-word {
-        display: none;
-    }
-
-    .desc {
-        margin-left: 20px;
-    }
-
-    .life {
-        margin-left: 50px;
-    }
-
-    .h4-description {
-        margin-top: -30px;
-    }
-
-    .preparation,
-    .planning,
-    .hard-work {
-        width: 320px;
-        height: 200px;
-        background-size: cover;
-    }
-
-    .line-1,
-    .line-3,
-    .line-5,
-    .line-7,
-    .line-9 {
-        width: 5%;
-    }
-
-    .h4-interests {
-        width: 60%;
-    }
-
-    .line-hobby-text {
-        margin-bottom: 40px;
-    }
-
-    .h4-closer {
-        margin-left: 60px;
-    }
-
-    .h5-closer {
-        font-size: 1.2rem;
+    .gallery-wrapper {
         width: 90%;
+        margin: 0 0 50px 90px;
     }
 
-    .h5-books {
-        margin-left: -40px;
+    /************* 1025 *************/
+    @media screen and (max-width: 1025px) {
+
+        .hard-work,
+        .planning,
+        .preparation {
+            width: 550px;
+            height: 300px;
+        }
+
+        .line-2 {
+            width: 68.5%;
+        }
+
+        .line-4 {
+            width: 56%;
+        }
+
+        .line-6 {
+            width: 47%;
+        }
+
+        .line-8 {
+            width: 34.5%;
+        }
+
+        .line-10 {
+            width: 26.7%;
+        }
+
+        .h5-closer {
+            margin-top: -50px;
+        }
+
+        .quote-window {
+            width: 930px;
+            height: 500px;
+            left: 3.5%;
+        }
     }
 
-    .quote-window {
-        width: 360px;
-        height: 350px;
-        left: 8%;
-        top: 28%;
+    /************* 950 *************/
+    @media screen and (max-width: 950px) {
+        .about-wrapper {
+            overflow-x: hidden;
+        }
+
+        .about-background {
+            font-size: 5.5rem;
+            left: 50px;
+        }
+
+        .about-text {
+            left: 22%;
+            top: 21%;
+        }
+
+        .pic-obj-person-obj-about-wrapper {
+            justify-content: center;
+        }
+
+        .obj-person {
+            position: static;
+            margin-bottom: 30px;
+        }
+
+        .obj-about {
+            position: static;
+        }
+
+        .pic-box {
+            min-width: 40%;
+        }
+
+        .pic-box img {
+            outline: 1px solid var(--yellow);
+            outline-offset: 10px;
+        }
+
+        .original-arr {
+            display: none;
+        }
+
+        .hidden-arr {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            border: 1px solid var(--yellow);
+            border-radius: 50%;
+            width: 500px;
+            height: 350px;
+        }
+
+        .desc,
+        .life,
+        .interests {
+            margin-left: 65px;
+            width: 85%;
+        }
+
+        .closer {
+            margin-left: 65px;
+        }
+
+        .par-desc {
+            text-align: justify;
+        }
+
+        .wedding-wrapper {
+            margin-left: 0px;
+        }
+
+        .quote-window {
+            width: 830px;
+            height: 500px;
+            left: 5%;
+        }
     }
 
-    .quote-window p {
-        line-height: 30px;
-    }
-}
+    /************* 900 *************/
+    @media screen and (max-width: 900px) {
+        .planning {
+            margin-left: 70px;
+        }
 
-/************* 376 *************/
-@media screen and (max-width: 376px) {
-    .about-background {
-        font-size: 2.6rem;
-        left: 50px;
-    }
+        .preparation {
+            margin-left: 150px;
+        }
 
-    .about-text {
-        left: 24%;
-        top: 19%;
-        font-size: 1.5rem;
-    }
+        .hobby-text {
+            font-size: 1.1rem;
+        }
 
-    .hidden-arr {
-        border-radius: 50%;
-        width: 300px;
-        height: 300px;
-        margin-top: 80px;
+        .quote-window {
+            width: 730px;
+            height: 500px;
+            left: 7%;
+        }
+
     }
 
-    .pic-box {
-        min-width: 70%;
+    /************* 850 *************/
+    @media screen and (max-width: 850px) {
+
+        .preparation,
+        .planning,
+        .hard-work {
+            margin: 50px auto 70px;
+        }
+
+        .hobby-text {
+            font-size: 1rem;
+        }
+
+        .line-2 {
+            width: 70%;
+        }
+
+        .line-4 {
+            width: 57%;
+        }
+
+        .line-6 {
+            width: 48%;
+        }
+
+        .line-8 {
+            width: 34.5%;
+        }
+
+        .line-10 {
+            width: 26.7%;
+        }
+
+        .pic {
+            width: 45%;
+        }
+
+        .pic3 {
+            clip-path: polygon(100% 0%, 75% 50%, 100% 100%, 25% 100%, 0% 50%, 25% 0%);
+        }
+
+        .h5-closer::after {
+            top: 40px;
+        }
+
+        .quote-window {
+            width: 730px;
+            height: 500px;
+            left: 4%;
+        }
+
+        #back-arr,
+        #forward-arr {
+            display: none;
+        }
+
+        .gallery-wrapper {
+            width: 85%;
+        }
+
+        .gallery {
+            flex-direction: column;
+            width: 90%;
+            margin-top: -70px;
+        }
+
+        .gallery div {
+            margin-bottom: 40px;
+        }
+
+        .quote {
+            font-size: 1rem;
+        }
     }
 
-    .about-btn-1200 {
-        top: 15px;
-        right: 15px;
+    /************* 768 *************/
+    @media screen and (max-width: 769px) {
+        .quote-window {
+            width: 730px;
+            height: 500px;
+            left: 2%;
+        }
     }
 
-    .desc {
-        margin-left: 17px;
-    }
+    /************* 750 *************/
+    @media screen and (max-width: 750px) {
+        .about-background {
+            font-size: 5rem;
+            left: 50px;
+        }
 
-    .about-btn-1200 {
-        top: 13px;
-        right: 20px;
-        width: 45px;
-        height: 45px;
-        padding: 5px 10px;
-    }
+        .about-text {
+            left: 20%;
+            top: 18%;
+        }
 
-    .about-btn-1200 i {
-        font-size: 1.3rem;
-    }
+        .quote-window {
+            width: 630px;
+            height: 450px;
+            left: 6%;
+        }
 
-    .life,
-    .interests {
-        margin-left: 28px;
-    }
+        .gallery div {
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin-top: 100px;
+        }
 
-    .life-h4 {
-        margin-left: 25px;
-    }
+        .slider {
+            width: 50%;
+        }
 
-    .h4-interests {
-        margin-left: 80px;
-        margin-bottom: 50px;
-    }
+        .h5-books {
+            top: 0;
+        }
 
-    .line-hobby-text {
-        margin-bottom: 30px;
-    }
+        .gallery {
+            overflow-y: hidden;
+        }
 
-    .h4-interests {
-        width: 80%;
-    }
+        .quote {
+            font-size: 1.3rem;
+        }
 
-    .h4-closer {
-        margin-left: 25px;
-    }
+        .gallery-wrapper .slider-wrapper2 {
+            margin-top: -10px;
+        }
 
-    .pic {
-        width: 100%;
     }
+        /************* 705 *************/
+        @media screen and (max-width: 705px) {
+            .about-background {
+                font-size: 4.7rem;
+                left: 100px;
+            }
 
-    .wedding-wrapper {
-        margin-left: -30px;
-    }
+            .about-text {
+                left: 20%;
+                top: 18%;
+                font-size: 2.8rem;
+            }
 
-    .h5-books {
-        margin-left: -40px;
-    }
+            .about-btn-1200 {
+                right: 25px;
+            }
 
-    .quote-window {
-        width: 300px;
-        height: 300px;
-        left: 9.5%;
-        top: 28%;
-    }
+            .desc {
+                margin-left: 52px;
+            }
 
-    .quote-window p {
-        font-size: .9rem;
-        line-height: 25px;
-    }
+            .preparation,
+            .planning,
+            .hard-work {
+                width: 500px;
+            }
 
-    .quote-btn-close {
-        font-size: 1.1rem;
-    }
-}
+            .line-2 {
+                width: 65%;
+            }
 
-/************* 321 *************/
-@media screen and (max-width: 321px) {
-    .about-background {
-        font-size: 2.4rem;
-        left: 30px;
-    }
+            .line-4 {
+                width: 52%;
+            }
 
-    .about-text {
-        left: 24%;
-        top: 19%;
-        font-size: 1.4rem;
-    }
+            .line-6 {
+                width: 43%;
+            }
 
-    .hidden-word {
-        display: none;
-    }
+            .line-8 {
+                width: 29.5%;
+            }
 
-    .hidden-arr {
-        border-radius: 50%;
-        width: 270px;
-        height: 270px;
-        margin-top: 80px;
-    }
+            .line-10 {
+                width: 21.7%;
+            }
 
-    .person,
-    .about,
-    .arr-values {
-        letter-spacing: .5px;
-        font-size: .9rem;
-        text-shadow: 1px 2px black;
-    }
+            .quote-window {
+                width: 630px;
+                height: 450px;
+                left: 4%;
+            }
+        }
 
-    .obj-person {
-        margin-bottom: 0;
-    }
+        /************* 670 *************/
+        @media screen and (max-width: 670px) {
+            .h5-closer {
+                width: 50%;
+            }
 
-    .desc {
-        margin-left: 17px;
-    }
+            .quote-window {
+                width: 600px;
+                height: 400px;
+                left: 3.5%;
+                /* top: 20%; */
+            }
+        }
 
-    .preparation,
-    .planning,
-    .hard-work {
-        width: 280px;
-        height: 180px;
-        margin-left: -8px;
-    }
+        /************* 630 *************/
+        @media screen and (max-width: 630px) {
+            .line-1 {
+                width: 5.5%;
+            }
 
-    .h4-interests {
-        margin-left: 50px;
-    }
+            .line-3 {
+                width: 10%;
+            }
 
-    .h4-closer {
-        margin-left: 0;
-    }
+            .line-5 {
+                width: 15%;
+            }
 
-    .h5-closer {
-        margin-left: -20px;
-    }
+            .line-7 {
+                width: 20%;
+            }
 
-    .h5-books {
-        margin-left: -40px;
-    }
+            .line-9 {
+                width: 25%;
+            }
 
-    .quote-window {
-        width: 280px;
-        height: 280px;
-        left: 6%;
-        top: 28%;
-    }
+            .quote-window {
+                width: 550px;
+                height: 350px;
+                left: 5%;
+                /* top: 22%; */
+            }
 
-}
+            .quote-window p {
+                font-size: 1.2rem;
+            }
+
+            .quote-btn-close {
+                font-size: 1.5rem;
+            }
+        }
+
+
+        /************* 600 *************/
+        @media screen and (max-width: 600px) {
+            .about-background {
+                font-size: 4.5rem;
+                left: 60px;
+            }
+
+            .about-text {
+                left: 22%;
+                top: 18%;
+                font-size: 2.8rem;
+            }
+
+            .pic-box {
+                min-width: 50%;
+            }
+
+            .desc {
+                margin-left: 40px;
+            }
+
+            .life {
+                width: 78%;
+            }
+
+            .preparation,
+            .planning,
+            .hard-work {
+                width: 400px;
+                height: 250px;
+            }
+
+            .philosophy {
+                font-size: 1.4rem;
+            }
+
+            .line-2 {
+                width: 68%;
+            }
+
+            .line-4 {
+                width: 52%;
+            }
+
+            .line-6 {
+                width: 41.5%;
+            }
+
+            .line-8 {
+                width: 25.5%;
+            }
+
+            .line-10 {
+                width: 16.7%;
+            }
+
+            .quote-window {
+                width: 500px;
+                height: 350px;
+                left: 8%;
+            }
+
+            .gallery-wrapper {
+                width: 85%;
+            }
+        }
+
+        /************* 550 *************/
+        @media screen and (max-width: 550px) {
+            .about-background {
+                font-size: 4rem;
+                left: 55px;
+            }
+
+            .about-text {
+                left: 22%;
+                top: 18%;
+                font-size: 2.4rem;
+            }
+
+            .hidden-arr {
+                border-radius: 50%;
+                width: 400px;
+                height: 400px;
+            }
+
+            .desc {
+                margin-left: 30px;
+                width: 87%;
+            }
+
+            .life {
+                width: 75%;
+            }
+
+            .par-desc {
+                text-align: justify;
+            }
+
+            .h4-description {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .h4-interests {
+                width: 50%;
+                margin: -10px auto 70px;
+            }
+
+            .line-2,
+            .line-4,
+            .line-6,
+            .line-8,
+            .line-10 {
+                display: none;
+            }
+
+            .hobby-text {
+                margin-left: 10px;
+            }
+
+            .pic {
+                width: 85%;
+            }
+
+            .pic1,
+            .pic-2,
+            .pic3 {
+                clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
+            }
+
+            .pic4,
+            .pic5,
+            .pic6 {
+                clip-path: polygon(75% 0%, 100% 50%, 75% 100%, 0% 100%, 25% 50%, 0% 0%);
+            }
+
+            .h4-closer {
+                margin-left: 110px;
+            }
+
+            .h5-closer {
+                margin-left: 0;
+                width: 70%;
+            }
+
+            .quote-window {
+                width: 470px;
+                height: 300px;
+                left: 6%;
+                /* top: 24%; */
+            }
+        }
+
+        /************* 500 *************/
+        @media screen and (max-width: 500px) {
+            .about-background {
+                font-size: 3.2rem;
+                left: 55px;
+            }
+
+            .about-text {
+                left: 22%;
+                top: 15%;
+                font-size: 2rem;
+            }
+
+            .person,
+            .about,
+            .arr-values {
+                letter-spacing: .5px;
+                font-size: 1rem;
+                text-shadow: 1px 2px black;
+            }
+
+            .pic-box {
+                min-width: 60%;
+            }
+
+            .hidden-arr {
+                border-radius: 50%;
+                width: 320px;
+                height: 320px;
+                margin-top: 80px;
+            }
+
+            .life {
+                margin-left: 50px;
+            }
+
+            .interests {
+                margin-left: 50px;
+            }
+
+            .h4-description {
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .preparation,
+            .planning,
+            .hard-work {
+                width: 350px;
+                height: 200px;
+            }
+
+            .philosophy {
+                font-size: 1.2rem;
+            }
+
+            .h4-closer {
+                margin-left: 75px;
+            }
+
+            .quote-window {
+                width: 400px;
+                height: 300px;
+                left: 8%;
+            }
+
+            .quote-window p {
+                font-size: 1.1rem;
+            }
+
+            .quote-btn-close {
+                font-size: 1.3rem;
+            }
+
+            .quote {
+                font-size: 1.2rem;
+            }
+        }
+
+        /************* 426 *************/
+        @media screen and (max-width: 426px) {
+            .about-background {
+                font-size: 3rem;
+                left: 50px;
+            }
+
+            .about-text {
+                left: 24%;
+                top: 15%;
+                font-size: 1.8rem;
+            }
+
+            .person,
+            .about,
+            .arr-values {
+                letter-spacing: .5px;
+                font-size: 1rem;
+                text-shadow: 1px 2px black;
+            }
+
+            .hidden-arr-values {
+                line-height: 27px;
+            }
+
+            .hidden-word {
+                display: none;
+            }
+
+            .desc {
+                margin-left: 20px;
+            }
+
+            .life {
+                margin-left: 50px;
+            }
+
+            .h4-description {
+                margin-top: -30px;
+            }
+
+            .preparation,
+            .planning,
+            .hard-work {
+                width: 320px;
+                height: 200px;
+                background-size: cover;
+            }
+
+            .line-1,
+            .line-3,
+            .line-5,
+            .line-7,
+            .line-9 {
+                width: 5%;
+            }
+
+            .h4-interests {
+                width: 60%;
+            }
+
+            .line-hobby-text {
+                margin-bottom: 40px;
+            }
+
+            .h4-closer {
+                margin-left: 60px;
+            }
+
+            .h5-closer {
+                font-size: 1.2rem;
+                width: 90%;
+            }
+
+            .h5-books {
+                margin-left: -40px;
+            }
+
+            .quote-window {
+                width: 360px;
+                height: 350px;
+                left: 8%;
+            }
+
+            .quote-window p {
+                line-height: 30px;
+            }
+
+            .gallery-wrapper {
+                width: 100%;
+                margin-left: 30px;
+            }
+
+        }
+
+        /************* 376 *************/
+        @media screen and (max-width: 376px) {
+            .about-background {
+                font-size: 2.6rem;
+                left: 50px;
+            }
+
+            .about-text {
+                left: 24%;
+                top: 19%;
+                font-size: 1.5rem;
+            }
+
+            .hidden-arr {
+                border-radius: 50%;
+                width: 300px;
+                height: 300px;
+                margin-top: 80px;
+            }
+
+            .pic-box {
+                min-width: 70%;
+            }
+
+            .about-btn-1200 {
+                top: 15px;
+                right: 15px;
+            }
+
+            .desc {
+                margin-left: 17px;
+            }
+
+            .about-btn-1200 {
+                top: 13px;
+                right: 20px;
+                width: 45px;
+                height: 45px;
+                padding: 5px 10px;
+            }
+
+            .about-btn-1200 i {
+                font-size: 1.3rem;
+            }
+
+            .life,
+            .interests {
+                margin-left: 28px;
+            }
+
+            .life-h4 {
+                margin-left: 25px;
+            }
+
+            .h4-interests {
+                margin-left: 80px;
+                margin-bottom: 50px;
+            }
+
+            .line-hobby-text {
+                margin-bottom: 30px;
+            }
+
+            .h4-interests {
+                width: 80%;
+            }
+
+            .h4-closer {
+                margin-left: 25px;
+            }
+
+            .pic {
+                width: 100%;
+            }
+
+            .wedding-wrapper {
+                margin-left: -30px;
+            }
+
+            .h5-books {
+                margin-left: -40px;
+            }
+
+            .quote-window {
+                width: 300px;
+                height: 300px;
+                left: 9.5%;
+                /* top: 28%; */
+            }
+
+            .quote-window p {
+                font-size: .9rem;
+                line-height: 25px;
+            }
+
+            .quote-btn-close {
+                font-size: 1.1rem;
+            }
+            
+            .quote {
+                font-size: 1rem;
+            }
+        }
+
+        /************* 321 *************/
+        @media screen and (max-width: 321px) {
+            .about-background {
+                font-size: 2.4rem;
+                left: 30px;
+            }
+
+            .about-text {
+                left: 24%;
+                top: 19%;
+                font-size: 1.4rem;
+            }
+
+            .hidden-word {
+                display: none;
+            }
+
+            .hidden-arr {
+                border-radius: 50%;
+                width: 270px;
+                height: 270px;
+                margin-top: 80px;
+            }
+
+            .person,
+            .about,
+            .arr-values {
+                letter-spacing: .5px;
+                font-size: .9rem;
+                text-shadow: 1px 2px black;
+            }
+
+            .obj-person {
+                margin-bottom: 0;
+            }
+
+            .desc {
+                margin-left: 17px;
+            }
+
+            .preparation,
+            .planning,
+            .hard-work {
+                width: 280px;
+                height: 180px;
+                margin-left: -8px;
+            }
+
+            .h4-interests {
+                margin-left: 50px;
+            }
+
+            .h4-closer {
+                margin-left: 0;
+            }
+
+            .h5-closer {
+                margin-left: -20px;
+            }
+
+            .h5-books {
+                margin-left: -40px;
+            }
+
+            .quote-window {
+                width: 280px;
+                height: 280px;
+                left: 6%;
+            }
+        }

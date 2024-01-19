@@ -374,7 +374,9 @@
 .gallery {
     display: flex;
     width: 100%;
+    /* height: 400px; */
     overflow-x: scroll;
+    position: relative;
 }
 
 .gallery::-webkit-scrollbar {
@@ -395,6 +397,7 @@
     border-radius: 5px;
     display: block;
     width: 100%;
+    height: 100%;
     position: relative;
     overflow: hidden;
     transition: all .5s;
@@ -407,17 +410,13 @@
 .slider:hover .quote {
     opacity: 1;
     transition: all 1s;
+    cursor: pointer;
 }
 
 .slider img {
     max-width: 100%;
     object-fit: cover;
     border-radius: 5px;
-
-}
-
-.gallery div:hover {
-    cursor: pointer;
 }
 
 .quote {
