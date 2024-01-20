@@ -14,9 +14,22 @@
 
 <body>
     <section class="skills-wrapper">
+        <!-- Hidden menu -->
+        <nav class="hidden-nav about-hidden-nav">
+            <a href="../html/index.html" class="hidden-menu-items">Home</a>
+            <a href="../html/about.html" class="hidden-menu-items">About</a>
+            <a href="../html/skills.html" class="hidden-menu-items">skills</a>
+            <a href="../html/projects.html" class="hidden-menu-items">Projects</a>
+            <a href="../html/contact.html" class="hidden-menu-items">Contact</a>
+        </nav>
+
+        <!-- Button less 1200px -->
+        <button type="button" class="btn-1200 about-btn-1200 skills-btn-hidden">
+            <i class="fa fa-bars" id="menuIcon"></i>
+        </button>
 
         <!-- UPPER TEXT -->
-        <div class="upper-text centered">
+        <div class="upper-text centered skills-upper-text">
             <span class="background-text">Savvy
                 <span class="front-text skills-header">My
                     <span class="yellow-word">Skills</span>
@@ -24,8 +37,8 @@
             </span>
         </div>
 
-        <!-- ALL SKILLS -->
-        <main class="all-skills">
+        <!-- TECHNICAL SKILLS -->
+        <main class="technical-skills">
             <h3><span class="yellow-h3">Technical </span>Skills</h3>
             <div class="container-technologies">
 
@@ -229,6 +242,8 @@
                 </p>
             </div>
         </article>
+
+        <!-- Back to Top Btn -->
         <div id="progress">
             <span id="progress-value">&#x1F815</span>
         </div>
@@ -270,7 +285,7 @@
         </nav>
     </section>
 
-    <script src="../js/app.js"></script>
+    <script src="../js/script.js"></script>
 </body>
 
 </html>

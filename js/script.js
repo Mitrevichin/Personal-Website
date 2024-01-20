@@ -1,5 +1,4 @@
 // Hidden Nav
-
 let hiddenNavBtn = document.querySelector('.btn-1200');
 let hiddenNavWrapper = document.querySelector('.hidden-nav');
 let menuIcon = document.getElementById('menuIcon');
@@ -10,17 +9,14 @@ hiddenNavBtn.addEventListener('click', () => {
 
     // Toggle the icon
     if (hiddenNavWrapper.style.left === '0%') {
-        // If the navigation is visible, change to 'close' icon
         menuIcon.className = 'fa-solid fa-xmark';
     } else {
-        // If the navigation is hidden, change to 'bars' icon
         menuIcon.className = 'fa fa-bars';
     }
 });
 
 
 // Scroll to top button
-
 let calcScrollvalue = () => {
     let scrollProgress = document.getElementById('progress');
     let progressValue = document.getElementById('progress-value');
@@ -50,7 +46,6 @@ window.onload = calcScrollvalue;
 
 
 // Slider book gallery
-
 let scrollContainer = document.querySelector('.gallery');
 let backBtn = document.getElementById('back-arr');
 let nextBtn = document.getElementById('forward-arr');
@@ -67,7 +62,6 @@ backBtn.addEventListener('click', () => {
 
 
 // Quote window
-
 function quotation() {
     let quoteWindow = document.querySelector('.quote-window');
     let quoteBtnClose = document.querySelector('.quote-btn-close');
@@ -85,8 +79,6 @@ function quotation() {
                 quoteWindow.style.bottom = '25%';
                 pageWrapper.style.filter = 'blur(10px)';
             }
-
-           
 
             p.textContent = '';
 
@@ -147,19 +139,7 @@ function quotation() {
 quotation();
 
 
-// Media query
 
-    // const mediaQuery = window.matchMedia('(max-width: 750px)');
-
-    // function handleMediaQueryChange(mq) {
-    //     if (mq.matches) {
-    //         // Apply styles for smaller screens
-    //         quoteWindow.style.bottom = '20%';
-    //     } 
-    // }
-
-    // // Initial check
-    // handleMediaQueryChange(mediaQuery);
 
 
 

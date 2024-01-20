@@ -1,0 +1,245 @@
+/********** min 1550 ****************/
+@media screen and (min-width: 1550px) {
+    .technical-skills {
+        margin-left: 50px;
+    }
+
+    .technical-skills h3 {
+        margin-left: 195px;
+    }
+}
+
+/********** 1450 ****************/
+@media screen and (max-width: 1450px) {
+    .container-technologies {
+        margin-left: 0;
+    }
+}
+
+/********** 1350 ****************/
+@media screen and (max-width: 1350px) {
+    .technical-skills h3 {
+        margin-left: 90px;
+    }
+}
+
+/********** 1300 ****************/
+@media screen and (max-width: 1300px) {
+    .skills-wrapper {
+        overflow-x: hidden;
+    }
+
+    .technical-skills h3 {
+        margin-left: 140px;
+    }
+
+    .technologies {
+        width: 220px;
+        height: 180px;
+    }
+
+    .container-technologies {
+        margin-left: 20px;
+    }
+}
+
+/********** 1300 ****************/
+@media screen and (max-width: 1300px) {
+    .container-technologies {
+        margin-left: 0;
+    }
+
+    .technical-skills h3 {
+        margin-left: 100px;
+    }
+}
+
+/********** 1200 ****************/
+@media screen and (max-width: 1200px) {
+    .technical-skills h3 {
+        margin-left: 50px;
+    }
+}
+
+
+/********** 1100 ****************/
+@media screen and (max-width: 1100px) {
+    .container-technologies {
+        column-gap: 30px;
+        row-gap: 30px;
+    }
+}
+
+/********** 1050 ****************/
+@media screen and (max-width: 1050px) {
+    .technologies {
+        width: 200px;
+        height: 150px;
+    }
+
+    .technical-skills h3 {
+        margin-left: 70px;
+    }
+}
+
+/********** 1050 ****************/
+@media screen and (max-width: 1050px) {
+    .technical-skills h3 {
+        margin-left: 40px;
+    }
+}
+
+/********** 1024 ****************/
+@media screen and (max-width: 1024px) {
+    .technical-skills h3 {
+        margin-left: 60px;
+    }
+}
+
+/********** 950 ****************/
+@media screen and (max-width: 950px) {
+    .container-technologies {
+        grid-template-columns: repeat(3, auto);
+        column-gap: 30px;
+        row-gap: 30px;
+    }
+
+    .technologies {
+        width: 220px;
+        height: 180px;
+    }
+
+    .technical-skills h3 {
+        margin-left: 110px;
+    }
+}
+
+/********** 900 ****************/
+@media screen and (max-width: 900px) {
+    .technical-skills h3 {
+        margin-left: 70px;
+    }
+
+    .technologies {
+        width: 200px;
+        height: 150px;
+    }
+}
+
+/********** 800 ****************/
+@media screen and (max-width: 800px) {
+    .skills-upper-text {
+        margin-left: 200px;
+    }
+}
+
+/********** 777 ****************/
+@media screen and (max-width: 777px) {
+    .technical-skills h3 {
+        margin-left: 60px;
+    }
+}
+
+/********** 750 ****************/
+@media screen and (max-width: 750px) {
+    .technical-skills h3 {
+        margin-left: 85px;
+    }
+
+    .container-technologies {
+        grid-template-columns: repeat(2, auto);
+        column-gap: 60px;
+        row-gap: 60px;
+    }
+    
+    .technologies {
+        width: 250px;
+        height: 200px;
+    }
+
+    .skills-upper-text {
+        margin-left: 150px;
+    }
+}
+
+/********** 650 ****************/
+@media screen and (max-width: 650px) {
+    .container-technologies {
+        column-gap: 30px;
+        row-gap: 30px;
+    }
+
+    .technical-skills h3 {
+        margin-left: 60px;
+    }
+
+    .skills-upper-text {
+        margin-left: 120px;
+    }
+}
+
+/********** 600 ****************/
+@media screen and (max-width: 600px) {
+    .technologies {
+        width: 220px;
+        height: 180px;
+    }
+
+    .skills-upper-text {
+        margin-left: 100px;
+    }
+}
+
+/********** 550 ****************/
+@media screen and (max-width: 550px) {
+    .technologies {
+        width: 200px;
+        height: 150px;
+    }
+
+    .technical-skills h3 {
+        margin: 0 auto 50px;
+    }
+}
+
+/********** 480 ****************/
+@media screen and (max-width: 480px) {
+    .technologies {
+        width: 190px;
+        height: 130px;
+    }
+}
+
+/********** 450 ****************/
+@media screen and (max-width: 450px) {
+    .container-technologies {
+        grid-template-columns: repeat(1, auto);
+    }
+
+    .technologies {
+        width: 270px;
+        height: 200px;
+    }
+}
+
+/********** 426 ****************/
+@media screen and (max-width: 426px) {
+    .skills-upper-text {
+       margin-left: 70px;
+    }
+}
+
+/********** 375 ****************/
+@media screen and (max-width: 376px) {
+    .technologies {
+        width: 240px;
+        height: 180px;
+    }
+}
+
+/********** 320 ****************/
+@media screen and (max-width: 321px) {
+    .skills-upper-text {
+        margin-left: 60px;
+     }
+}

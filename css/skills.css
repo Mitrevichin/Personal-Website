@@ -44,8 +44,11 @@
 }
 
 /********************************** TECHNOLOGIES (SKILLS) *****************************/
+.technical-skills {
+    width: 100%;
+}
 
-.all-skills h3 {
+.technical-skills h3 {
     color: var(--white);
     text-transform: capitalize;
     font-size: 26px;
@@ -124,31 +127,46 @@
 }
 
 @keyframes moveInLeft {
-    0% {opacity: 0; transform: translateX(-10rem);}
+    0% {
+        opacity: 0;
+        transform: translateX(-10rem);
+    }
 
-    80% {transform: translateX(.5rem);}
+    80% {
+        transform: translateX(.5rem);
+    }
 
-    100% {opacity: 1; transform: translate(0);}
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
 }
 
 @keyframes moveInRight {
-    0% {opacity: 0; transform: translateX(10rem);}
-    100% {opacity: 1; transform: translate(0);}
+    0% {
+        opacity: 0;
+        transform: translateX(10rem);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translate(0);
+    }
 }
 
 .technologies:hover .h5-animated {
     animation: moveInRight 1s;
 }
 
-.technologies:hover .par1{
+.technologies:hover .par1 {
     animation: moveInLeft 1.2s;
 }
 
-.technologies:hover .par2{
+.technologies:hover .par2 {
     animation: moveInLeft 1.2s .1s;
 }
 
-.technologies:hover .par3{
+.technologies:hover .par3 {
     animation: moveInLeft 1.2s .2s;
 }
 
@@ -351,3 +369,8 @@
     top: 27%;
     left: 96%;
 }
+
+/* .skills-btn-hidden {
+    top: 25px;
+    right: 55px;
+} */
