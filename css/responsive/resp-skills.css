@@ -7,12 +7,26 @@
     .technical-skills h3 {
         margin-left: 195px;
     }
+
+   
+}
+
+/********** 1550 ****************/
+@media screen and (max-width: 1550px) {
+    .container-technologies {
+        margin-left: -40px;
+    }
 }
 
 /********** 1450 ****************/
 @media screen and (max-width: 1450px) {
     .container-technologies {
-        margin-left: 0;
+        margin-left: 20px;
+    }
+
+    .tools-box {
+        font-size: 1.4rem;
+        gap: 50px;
     }
 }
 
@@ -20,6 +34,15 @@
 @media screen and (max-width: 1350px) {
     .technical-skills h3 {
         margin-left: 90px;
+    }
+
+    .tools {
+        margin-left: -40px;
+    }
+
+    .tools-box {
+        font-size: 1.5rem;
+        /* gap: 45px; */
     }
 }
 
@@ -41,6 +64,10 @@
     .container-technologies {
         margin-left: 20px;
     }
+
+    .tools-box {
+        gap: 40px;
+    }
 }
 
 /********** 1300 ****************/
@@ -59,6 +86,15 @@
     .technical-skills h3 {
         margin-left: 50px;
     }
+
+    .tools {
+        margin-left: -70px;
+    }
+
+    .tools-box {
+        font-size: 1.2rem;
+        gap: 30px;
+    }
 }
 
 
@@ -67,6 +103,10 @@
     .container-technologies {
         column-gap: 30px;
         row-gap: 30px;
+    }
+
+    .tools-box {
+        flex-wrap: wrap;
     }
 }
 
@@ -93,6 +133,11 @@
 @media screen and (max-width: 1024px) {
     .technical-skills h3 {
         margin-left: 60px;
+    }
+
+    .tools-box {
+        font-size: 1.1rem;
+        gap: 24px;
     }
 }
 
@@ -160,6 +205,10 @@
     .skills-upper-text {
         margin-left: 150px;
     }
+
+    .tools {
+        margin-right: 30px;
+    }
 }
 
 /********** 650 ****************/
@@ -176,6 +225,10 @@
     .skills-upper-text {
         margin-left: 120px;
     }
+
+    .tools {
+        margin-left: -90px;
+    }
 }
 
 /********** 600 ****************/
@@ -187,6 +240,10 @@
 
     .skills-upper-text {
         margin-left: 100px;
+    }
+
+    .browser {
+        order: -1;
     }
 }
 
@@ -200,6 +257,14 @@
     .technical-skills h3 {
         margin: 0 auto 50px;
     }
+
+    .tools h4 {
+        margin-left: 280px;
+    }
+
+    .tools-box {
+        margin-left: 180px;
+    }
 }
 
 /********** 480 ****************/
@@ -207,6 +272,17 @@
     .technologies {
         width: 190px;
         height: 130px;
+    }
+
+    .tools h4 {
+        margin-left: 250px;
+    }
+}
+
+/********** 500 ****************/
+@media screen and (max-width: 500px) {
+    .tools-box {
+        margin-left: 150px;
     }
 }
 
@@ -227,6 +303,18 @@
     .skills-upper-text {
        margin-left: 70px;
     }
+
+    .tools-box {
+        margin-left: 145px;
+    }
+
+    .tools h4 {
+        margin-left: 220px;
+    }
+
+    .tools h4 {
+        width: 100%;
+    }
 }
 
 /********** 375 ****************/
@@ -235,6 +323,14 @@
         width: 240px;
         height: 180px;
     }
+
+    .tools-box {
+        margin-left: 160px;
+    }
+
+    .tools h4 {
+        margin-left: 200px;
+    }
 }
 
 /********** 320 ****************/
@@ -242,4 +338,13 @@
     .skills-upper-text {
         margin-left: 60px;
      }
+
+     .tools-box {
+        margin-left: 140px;
+    }
+
+    .tools h4 {
+        margin-left: 175px;
+        width: 100%;
+    }
 }

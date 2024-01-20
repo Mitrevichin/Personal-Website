@@ -204,6 +204,9 @@
 }
 
 /********************************** TOOLS *****************************/
+.tools {
+    width: 100%;
+}
 .tools h4 {
     color: var(--white);
     text-transform: capitalize;
@@ -218,6 +221,8 @@
 }
 
 .tools-box {
+    vertical-align: middle;
+    width: 80%;
     color: var(--white);
     display: flex;
     margin: -15px 0 150px 140px;
@@ -227,6 +232,9 @@
 }
 
 .tools-box span {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-color: #222222;
     padding: 5px 20px;
     border-top-left-radius: 15px;
