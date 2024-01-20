@@ -4,6 +4,7 @@
     width: 100vw;
     background-color: var(--black);
     position: absolute;
+    overflow: hidden;
 }
 
 .upper-text {
@@ -221,7 +222,7 @@
 }
 
 .tools-box {
-    vertical-align: middle;
+    text-align: center;
     width: 80%;
     color: var(--white);
     display: flex;
@@ -250,16 +251,20 @@
 }
 
 /******************* TO BE LEARNT SKILLS**************************/
+.planned-skill {
+    width: 100%;
+}
+
 .planned-skills h4 {
     text-transform: capitalize;
     font-size: 26px;
     font-weight: 600;
     letter-spacing: 1px;
     margin: 100px 0 50px 140px;
-
 }
 
 .container-planned-technologies {
+    width: 100%;
     display: grid;
     grid-template-columns: repeat(4, auto);
     justify-content: center;
