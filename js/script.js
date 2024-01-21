@@ -71,7 +71,7 @@ function quotation() {
     Array.from(quoteBtnsOpen).forEach(btn => {
         btn.addEventListener('click', (e) => {
             let p = document.createElement('p');
-            
+
             if (window.innerWidth >= 750) {
                 quoteWindow.style.bottom = '0%';
                 pageWrapper.style.filter = 'blur(10px)';
@@ -137,6 +137,9 @@ function quotation() {
 }
 
 quotation();
+
+
+
 
 
 

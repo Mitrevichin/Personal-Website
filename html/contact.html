@@ -87,13 +87,13 @@
 
             <!-- CENTER (FORM) -->
             <div class="center">
-                <form class="contact-form">
+                <form action="https://formspree.io/f/xnqejqzk" method="post" class="contact-form">
                     <div class="inputs">
-                        <input class="input-1" type="text" placeholder="Your name" name="name">
-                        <input class="input-2" type="email" name="email" placeholder="Your email">
-                        <input class="input-3" type="text" placeholder="Your subject" name="subject">
+                        <input class="input-1" type="text" placeholder="Your name" name="name" required>
+                        <input class="input-2" type="email" name="email" placeholder="Your email" required>
+                        <input class="input-3" type="text" placeholder="Your subject" name="subject" required>
                     </div>
-                    <textarea name="area" placeholder="Your message"></textarea>
+                    <textarea class="placeholder-fade" name="area" placeholder="Your message" required></textarea>
                     <button class="btn-msg" type="submit">
                         <span class="btn-text">Send Message</span>
                         <span class="btn-send-icon">
