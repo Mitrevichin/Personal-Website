@@ -11,10 +11,29 @@
 
 }
 
+/********** 1650 ****************/
+@media screen and (max-width: 1650px) {
+    .soft-skills-heading {
+        padding-left: 190px;
+    }
+    
+    .padding1 {
+        padding-left: 200px;
+    }
+    
+    .padding2 {
+        padding-left: 165px;
+    }
+}
+
 /********** 1550 ****************/
 @media screen and (max-width: 1550px) {
     .container-technologies {
         margin-left: -40px;
+    }
+
+    .container-planned-technologies {
+        margin-left: -50px;
     }
 }
 
@@ -51,6 +70,10 @@
 
     .planned-skills h4 {
         margin-left: 100px;
+    }
+
+    .soft-skills {
+        margin-left: -35px;
     }
 }
 
@@ -92,6 +115,10 @@
     .technical-skills h3 {
         margin-left: 100px;
     }
+
+    .soft-skills-heading {
+        width: 500px;
+    }
 }
 
 /********** 1200 ****************/
@@ -112,6 +139,10 @@
     .planned-skills h4 {
         margin-left: 65px;
     }
+
+    .soft-skills {
+        margin-left: -75px;
+    }
 }
 
 /********** 1150 ****************/
@@ -123,6 +154,14 @@
     .planned-technologies {
         width: 180px;
         height: 150px;
+    }
+
+    .soft-skills-heading {
+        width: 450px;
+    }
+
+    .soft-skills-container p {
+        text-wrap: balance;
     }
 }
 
@@ -148,6 +187,20 @@
     .technical-skills h3 {
         margin-left: 70px;
     }
+
+    .soft-skills-heading {
+        width: 420px;
+        padding-left: 130px;
+    }
+
+    .padding1 {
+        padding-left: 145px;
+    }
+
+    .padding2 {
+        padding-left: 110px;
+    }
+
 }
 
 /********** 1050 ****************/
@@ -181,6 +234,10 @@
         width: 280px;
         height: 250px;
     }
+
+    .soft-skills-heading {
+        width: 400px;
+    }
 }
 
 /********** 950 ****************/
@@ -199,6 +256,28 @@
     .technical-skills h3 {
         margin-left: 110px;
     }
+
+    .soft-skills-heading {
+        width: 370px;
+    }
+
+    .soft-skills-heading {
+        font-size: 1rem;
+        text-wrap: nowrap;
+        text-align: center;
+    }
+
+    .soft-skills-heading {
+        padding-left: 110px;
+    }
+
+    .padding1 {
+        padding-left: 130px;
+    }
+
+    .padding2 {
+        padding-left: 100px;
+    }
 }
 
 /********** 900 ****************/
@@ -211,6 +290,14 @@
         width: 200px;
         height: 150px;
     }
+
+    .soft-skills-heading {
+        width: 350px;
+    }
+
+    .soft-skills-container {
+        margin-left: 130px;
+    }
 }
 
 /********** 850 ****************/
@@ -218,12 +305,52 @@
     .container-planned-technologies {
         column-gap: 80px;
     }
+
+    .soft-skills-heading {
+        width: 330px;
+    }
+
+    .soft-skills-heading {
+        padding-left: 90px;
+    }
+
+    .padding1 {
+        padding-left: 110px;
+    }
+
+    .padding2 {
+        padding-left: 70px;
+    }
 }
 
 /********** 800 ****************/
 @media screen and (max-width: 800px) {
     .skills-upper-text {
         margin-left: 200px;
+    }
+
+    .soft-skills-heading {
+        width: 300px;
+    }
+
+    .soft-skills-heading {
+        padding-left: 75px;
+    }
+
+    .padding1 {
+        padding-left: 90px;
+    }
+
+    .padding2 {
+        padding-left: 60px;
+    }
+
+    .soft-skills-container {
+        column-gap: 20px;
+    }
+
+    .soft-skills-container {
+        margin-left: 110px;
     }
 }
 
@@ -266,6 +393,25 @@
 
     .tools {
         margin-right: 30px;
+    }
+}
+
+/********** 700 ****************/
+@media screen and (max-width: 700px) {
+    .soft-skills-heading {
+        width: 270px;
+    }
+
+    .soft-skills-heading {
+        padding-left: 60px;
+    }
+
+    .padding1 {
+        padding-left: 80px;
+    }
+
+    .padding2 {
+        padding-left: 45px;
     }
 }
 
@@ -313,6 +459,30 @@
         column-gap: 40px;
         row-gap: 50px;
     }
+
+    .soft-skills-heading {
+        width: 450px;
+    }
+
+    .soft-skills-container {
+        grid-template-columns: 1fr;
+    }
+
+    .soft-skills-heading {
+        padding-left: 150px;
+    }
+
+    .padding1 {
+        padding-left: 150px;
+    }
+
+    .padding2 {
+        padding-left: 140px;
+    }
+
+    .soft-skills-container {
+        margin-left: 100px;
+    }
 }
 
 /********** 550 ****************/
@@ -337,6 +507,26 @@
     .planned-technologies {
         width: 200px;
         height: 170px;
+    }
+
+    .soft-skills-heading {
+        width: 420px;
+    }
+
+    .soft-skills-heading {
+        padding-left: 140px;
+    }
+
+    .padding1 {
+        padding-left: 140px;
+    }
+
+    .padding2 {
+        padding-left: 125px;
+    }
+
+    .soft-skills h4 {
+        margin-left: 270px;
     }
 }
 
@@ -365,12 +555,38 @@
     .planned-skills h4 {
         margin-left: 40px;
     }
+
+    
 }
 
 /********** 500 ****************/
 @media screen and (max-width: 500px) {
     .tools-box {
         margin-left: 150px;
+    }
+
+    .soft-skills-heading {
+        width: 350px;
+    }
+
+    .soft-skills-heading {
+        padding-left: 100px;
+    }
+
+    .padding1 {
+        padding-left: 120px;
+    }
+
+    .padding2 {
+        padding-left: 80px;
+    }
+
+    .soft-skills-container {
+        margin-left: 85px;
+    }
+
+    .soft-skills h4 {
+        margin-left: 250px;
     }
 }
 
@@ -390,6 +606,10 @@
         /* font-size: 1.4rem; */
         width: 50%;
         text-wrap: balance;
+    }
+
+    .soft-skills h4 {
+        margin-left: 220px;
     }
 }
 
@@ -419,6 +639,26 @@
     .planned-skills h4 {
         margin-left: 115px;
     }
+
+    .soft-skills-heading {
+        padding-left: 90px;
+    }
+
+    .padding1 {
+        padding-left: 110px;
+    }
+
+    .padding2 {
+        padding-left: 70px;
+    }
+
+    .soft-skills h4 {
+        margin-left: 220px;
+    }
+
+    .soft-skills-heading {
+        width: 320px;
+    }
 }
 
 /********** 375 ****************/
@@ -438,6 +678,30 @@
 
     .planned-skills h4 {
         margin-left: 90px;
+    }
+
+    .soft-skills h4 {
+        margin-left: 195px;
+    }
+
+    .soft-skills-container {
+        margin-left: 80px;
+    }
+
+    .soft-skills-heading {
+        width: 280px;
+    }
+
+    .soft-skills-heading {
+        padding-left: 65px;
+    }
+
+    .padding1 {
+        padding-left: 85px;
+    }
+
+    .padding2 {
+        padding-left: 50px;
     }
 }
 
@@ -463,5 +727,25 @@
     .planned-technologies {
         width: 200px;
         height: 170px;
+    }
+
+    .soft-skills-heading {
+        width: 250px;
+    }
+
+    .soft-skills-heading {
+        padding-left: 50px;
+    }
+
+    .padding1 {
+        padding-left: 70px;
+    }
+
+    .padding2 {
+        padding-left: 35px;
+    }
+
+    .soft-skills h4 {
+        margin-left: 170px;
     }
 }
