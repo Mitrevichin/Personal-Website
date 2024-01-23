@@ -84,13 +84,13 @@ function quotation() {
 
             if (btn.classList.contains('quote1')) {
                 p.textContent = '"Sow a thought, reap an action; sow an action, reap a habit; sow a habit, reap a character; sow a character, reap a destiny."';
-                quoteWindow.style.background = 'linear-gradient(rgba(0, 0, 0, 0.683), rgba(0, 0, 0, 0.725)), url(../images/wallpaper1.jpg)';
+                quoteWindow.style.background = 'linear-gradient(rgba(0, 0, 0, 0.683), rgba(0, 0, 0, 0.725)), url(../images/wallpaper1-1.jpg)';
                 quoteWindow.style.backgroundSize = 'contain';
                 p.style.width = '80%';
 
             } else if (btn.classList.contains('quote2')) {
                 p.textContent = '"Habits are the compound interest of self-improvement."';
-                quoteWindow.style.background = 'linear-gradient(rgba(0, 0, 0, 0.683), rgba(0, 0, 0, 0.725)), url(../images/wallpaper2.jpeg)';
+                quoteWindow.style.background = 'linear-gradient(rgba(0, 0, 0, 0.683), rgba(0, 0, 0, 0.725)), url(../images/wallpaper2-2.jpeg)';
                 quoteWindow.style.backgroundSize = 'cover';
                 quoteWindow.style.backgroundPosition = 'center';
                 p.style.width = '80%';
@@ -104,14 +104,14 @@ function quotation() {
 
             } else if (btn.classList.contains('quote4')) {
                 p.textContent = '"Attitude affects altitude".';
-                quoteWindow.style.background = 'linear-gradient(rgba(0, 0, 0, 0.683), rgba(0, 0, 0, 0.725)), url(../images/wallpaper5.jpg)';
+                quoteWindow.style.background = 'linear-gradient(rgba(0, 0, 0, 0.683), rgba(0, 0, 0, 0.725)), url(../images/wallpaper5-5.jpg)';
                 quoteWindow.style.backgroundSize = 'cover';
                 quoteWindow.style.backgroundPosition = 'center';
                 p.style.width = '80%';
 
             } else if (btn.classList.contains('quote5')) {
                 p.textContent = '"Your present and future are a projection of your thinking."';
-                quoteWindow.style.background = 'linear-gradient(rgba(0, 0, 0, 0.683), rgba(0, 0, 0, 0.725)), url(../images/wallpaper4-min.jpg)';
+                quoteWindow.style.background = 'linear-gradient(rgba(0, 0, 0, 0.683), rgba(0, 0, 0, 0.725)), url(../images/wallpaper4-4.jpg)';
                 quoteWindow.style.backgroundSize = 'cover';
                 quoteWindow.style.backgroundPosition = 'center';
                 p.style.width = '80%';

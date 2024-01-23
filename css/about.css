@@ -485,6 +485,7 @@
 
 .quote-btn-close:hover {
     cursor: pointer;
+    color: var(--yellow);
 }
 
 .quote-window>p {

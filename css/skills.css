@@ -85,6 +85,11 @@
     margin-top: -5px;
 }
 
+.par4 {
+    margin-top: 20px;
+    margin-left: -30px;
+}
+
 .container-technologies {
     display: grid;
     grid-template-columns: repeat(4, auto);
