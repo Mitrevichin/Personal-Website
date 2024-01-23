@@ -14,22 +14,42 @@ Array.from(spanTexts).forEach(spanText => {
         // Toggle visibility of additInfo
         additInfo.style.visibility = (additInfo.style.visibility === 'visible') ? 'hidden' : 'visible';
 
+        const a = document.createElement('a');
+        a.href = 'https://www.linkedin.com/in/petar-mitrevichin/details/recommendations/';
+        a.target = 'blank';
+        a.textContent = 'Check recommendations.'
+        a.classList.add('a-skills');
+
+        additInfo.appendChild(a);
+
         if (spanText.classList.contains('info1')) {
-            additInfoText.textContent = '11111111111111';
+            additInfoText.textContent = `Throughout my career path, teamwork has always been a key factor in my progress. Whether leading a restaurant team, joining strategic planning sessions, or adapting to challenges at KLEAR, I've worked seamlessly with diverse teams. `;
+
         } else if (spanText.classList.contains('info2')) {
-            additInfoText.textContent = '22222222222222222';
+            additInfoText.textContent = `I excel on the front line, where effective communication, a second nature to me, ensures clarity in explaining plans to clients, partners, and team members, facilitating smooth collaboration and successful project outcomes.`;
+
         } else if (spanText.classList.contains('info3')) {
-            additInfoText.textContent = '333333333333333333';
+            additInfoText.textContent = `
+            With varied job experiences, I excel in adaptability, smoothly transitioning between creating marketing plans and assisting clients, showcasing the ability to adjust, identify opportunities, and contribute positively in diverse workplaces.`;
+
         } else if (spanText.classList.contains('info4')) {
-            additInfoText.textContent = '44444444444444444444';
+            additInfoText.textContent = `In diverse roles, my central focus has been proactive problem-solving, including analyzing marketing campaigns, addressing client advising issues at KLEAR, and leading a restaurant team.`;
+
         } else if (spanText.classList.contains('info5')) {
-            additInfoText.textContent = '55555555555555555555';
+            additInfoText.textContent = `
+            I demonstrate curiosity and enthusiasm for learning through diverse experiences, implementing creative solutions as an assistant event planner, and developing engaging programs as a museum educator to inspire diverse audiences.`;
+
+            a.href = 'https://drive.google.com/file/d/1hYnQJyQGQDdD3dFweLdDTCZnAl7FX7lZ/view?usp=drive_link';
+
         } else if (spanText.classList.contains('info6')) {
-            additInfoText.textContent = '666666666666666';
+            additInfoText.textContent = `In my career, I've embraced diverse challenges with an open mind, exploring various jobs and industries, fostering not only adaptation to new environments but also the sharing of diverse ideas in planning sessions.`;
+
         } else if (spanText.classList.contains('info7')) {
-            additInfoText.textContent = '77777777777777777';
+            additInfoText.textContent = `
+            Managing a team of 18 in a restaurant, I delved into people management, excelling in recruiting, training, and motivating staff, contributing significantly to achieving a historic first-place rating in the annual clients' survey.`;
+
         } else if (spanText.classList.contains('info8')) {
-            additInfoText.textContent = '8888888888888888';
+            additInfoText.textContent = `Apart from leading teams, I'm good at managing my time, which has been really important in fast-paced situations. Whether I'm working on marketing plans, joining planning meetings, or setting up events, I always make sure to use my time well.`;
         }
 
     });

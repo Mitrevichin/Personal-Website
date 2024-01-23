@@ -4,7 +4,7 @@ body {
 
 .projects-page-wrapper {
     height: auto;
-    width: 100vw;
+    width: 100%;
     background-color: var(--black);
     position: absolute;
     overflow-x: hidden;

@@ -16,13 +16,18 @@
     .soft-skills-heading {
         padding-left: 190px;
     }
-    
+
     .padding1 {
         padding-left: 200px;
     }
-    
+
     .padding2 {
         padding-left: 165px;
+    }
+
+    .skills-info-close-btn {
+        top: -55%;
+        right: -2%;
     }
 }
 
@@ -75,6 +80,10 @@
     .soft-skills {
         margin-left: -35px;
     }
+
+    .a-skills {
+        left: 2.5%;
+    }
 }
 
 /********** 1300 ****************/
@@ -103,6 +112,11 @@
     .planned-technologies {
         width: 230px;
         height: 200px;
+    }
+
+    .skills-info-close-btn {
+        top: -40%;
+        right: -2%;
     }
 }
 
@@ -238,6 +252,10 @@
     .soft-skills-heading {
         width: 400px;
     }
+
+    .skills-info-close-btn {
+        top: -45%;
+    }
 }
 
 /********** 950 ****************/
@@ -368,6 +386,11 @@
     .planned-skills h4 {
         margin-left: 65px;
     }
+
+    .a-skills {
+        margin-top: 55px;
+        left: 4%;
+    }
 }
 
 /********** 750 ****************/
@@ -412,6 +435,14 @@
 
     .padding2 {
         padding-left: 45px;
+    }
+
+    .additional-info-text {
+        margin-bottom: 200px;
+    }
+
+    .a-skills {
+        left: 5%;
     }
 }
 
@@ -528,6 +559,15 @@
     .soft-skills h4 {
         margin-left: 270px;
     }
+
+    .additional-info {
+        align-items: flex-start;
+    }
+
+    .a-skills {
+        margin-top: 50px;
+    }
+
 }
 
 /********** 480 ****************/
@@ -556,7 +596,7 @@
         margin-left: 40px;
     }
 
-    
+
 }
 
 /********** 500 ****************/
@@ -632,8 +672,12 @@
     }
 
     .planned-skills h4 {
-        width: 70%;
+        width: 80%;
         margin-left: 90px;
+    }
+
+    .hidden-part {
+        display: none;
     }
 
     .planned-skills h4 {
@@ -658,6 +702,15 @@
 
     .soft-skills-heading {
         width: 320px;
+    }
+
+    .additional-info-text,
+    .a-skills {
+        font-size: 1.1rem;
+    }
+
+    .a-skills {
+        left: 7.5%;
     }
 }
 
@@ -703,6 +756,10 @@
     .padding2 {
         padding-left: 50px;
     }
+
+    .a-skills {
+        margin-top: 75px;
+    }
 }
 
 /********** 320 ****************/
@@ -747,5 +804,15 @@
 
     .soft-skills h4 {
         margin-left: 170px;
+    }
+
+    .additional-info-text,
+    .a-skills {
+        font-size: .9rem;
+    }
+
+    .a-skills {
+        margin-top: 80px;
+        left: 8.5%;
     }
 }
