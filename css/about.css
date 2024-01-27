@@ -329,9 +329,9 @@
 }
 
 .pic:hover {
-    transform: scale(1.1) translateX(6px);
-    filter: contrast(105%);
-    opacity: 1;
+    transform: scale(1.1) translateX(6px) !important;
+    filter: contrast(105%) !important;
+    opacity: 1 !important;
 }
 
 .pic4,
@@ -343,7 +343,7 @@
 .pic4:hover,
 .pic5:hover,
 .pic6:hover {
-    transform: scale(1.1) translateX(-6px);
+    transform: scale(1.1) translateX(-6px) !important;
 }
 
 /************************** BOOOKS SECTION************************************/

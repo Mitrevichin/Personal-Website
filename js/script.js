@@ -1,3 +1,6 @@
+gsap.registerPlugin("TextPlugin", "ScrollTrigger");
+
+
 // Hidden Nav
 let hiddenNavBtn = document.querySelector('.btn-1200');
 let hiddenNavWrapper = document.querySelector('.hidden-nav');
@@ -138,7 +141,70 @@ function quotation() {
 
 quotation();
 
+//Form
+const form = document.querySelector('.contact-form');
 
+// Add event listener for form submission
+form.addEventListener('submit', (event) => {
+    // Prevent the default form submission behavior
+    event.preventDefault();
+    
+    // Clear input values after submission
+    nameInput.value = '';
+    emailInput.value = '';
+    subjectInput.value = '';
+    textarea.value = '';
+});
+
+
+
+// Animations GSAP
+
+// Timelien 1
+let tl1 = gsap.timeline({
+    scrollTrigger: {
+        trigger: '.h4-description',
+        start: "top 45%",
+    }
+});
+
+tl1.from('.par-desc', {
+    y: 200,
+    opacity: 0,
+    duration: 1,
+})
+    .to('.text-anime1', { text: 'web development', duration: 1 })
+    .to('.text-anime2', { text: 'HTML', duration: 0.3 })
+    .to('.text-anime3', { text: 'CSS', duration: 0.3 })
+    .to('.text-anime4', { text: 'Javascript ecosystem', duration: 1 })
+
+
+// Timelien 2
+let tl2 = gsap.timeline({
+    scrollTrigger: {
+        trigger: '.h4-interests',
+        start: 'top center',
+    }
+})
+
+tl2.from('.line-2, .line-4, .line-6, .line-8, .line-10', { opacity: 0, duration: 1, width: 0 })
+tl2.from('.line-1, .line-3, .line-5, .line-7, .line-9', { opacity: 0, duration: 1, width: 0 })
+
+// Timelien 3
+let tl3 = gsap.timeline({
+    stagger: 0.5,
+    scrollTrigger: {
+        trigger: '.h5-closer',
+        start: 'top center',
+    }
+})
+
+tl3.fromTo('.pic1', { opacity: 0, x: -30, duration: 2, ease: "sine.inOut" }, { opacity: 1, x: 0 })
+    .fromTo('.pic-2', { opacity: 0, x: -30, duration: 2, ease: "sine.inOut" }, { opacity: 1, x: 0 })
+    .fromTo('.pic3', { opacity: 0, x: -30, duration: 2, ease: "sine.inOut" }, { opacity: 1, x: 0 })
+    .fromTo('.pic6', { opacity: 0, x: 30, duration: 2, ease: "sine.inOut" }, { opacity: 1, x: 0 })
+    .fromTo('.pic5', { opacity: 0, x: 30, duration: 2, ease: "sine.inOut" }, { opacity: 1, x: 0 })
+    .fromTo('.pic4', { opacity: 0, x: 30, duration: 2, ease: "sine.inOut" }, { opacity: 1, x: 0 })
 
 
 

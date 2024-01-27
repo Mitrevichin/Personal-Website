@@ -10,7 +10,7 @@
 
 @keyframes dashToRight {
     0% {
-        transform: translateX(-1000px);
+        transform: translateY(-900px);
     }
 
     100% {
