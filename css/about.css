@@ -174,17 +174,17 @@
 }
 
 .preparation:hover {
-    box-shadow: 34px 11px 80px -9px rgba(248, 231, 28, 1),
+    box-shadow: 34px 11px 80px -9px rgba(148, 131, 28, 1),
         0px 15px 12px 0px rgba(0, 0, 0, 0.22);
 }
 
 .hard-work:hover {
-    box-shadow: 34px 11px 80px -9px rgba(248, 231, 28, 1),
+    box-shadow: 34px 11px 80px -9px rgba(148, 131, 28, 1),
         0px 15px 12px 0px rgba(0, 0, 0, 0.22);
 }
 
 .planning:hover {
-    box-shadow: 34px 11px 80px -9px rgba(248, 231, 28, 1),
+    box-shadow: 34px 11px 80px -9px rgba(148, 131, 28, 1),
         0px 15px 12px 0px rgba(0, 0, 0, 0.22);
 }
 

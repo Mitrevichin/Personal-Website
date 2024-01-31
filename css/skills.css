@@ -250,11 +250,9 @@
 }
 
 .tools-box span:hover {
-    background-color: rgb(58, 54, 9);
     cursor: pointer;
-    box-shadow: 34px 11px 104px -9px rgba(248, 231, 28, 1),
-        0px 15px 12px 0px rgba(0, 0, 0, 0.22);
-}
+    color: var(--yellow);
+} 
 
 /******************* TO BE LEARNT SKILLS**************************/
 .planned-skill {

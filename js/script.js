@@ -141,26 +141,12 @@ function quotation() {
 
 quotation();
 
-//Form
-const form = document.querySelector('.contact-form');
-
-// Add event listener for form submission
-form.addEventListener('submit', (event) => {
-    // Prevent the default form submission behavior
-    event.preventDefault();
-    
-    // Clear input values after submission
-    nameInput.value = '';
-    emailInput.value = '';
-    subjectInput.value = '';
-    textarea.value = '';
-});
-
-
 
 // Animations GSAP
 
-// Timelien 1
+function animationGSAP() {
+   if (window.innerWidth >= 1025) {
+    // Timelien 1
 let tl1 = gsap.timeline({
     scrollTrigger: {
         trigger: '.h4-description',
@@ -205,6 +191,10 @@ tl3.fromTo('.pic1', { opacity: 0, x: -30, duration: 2, ease: "sine.inOut" }, { o
     .fromTo('.pic6', { opacity: 0, x: 30, duration: 2, ease: "sine.inOut" }, { opacity: 1, x: 0 })
     .fromTo('.pic5', { opacity: 0, x: 30, duration: 2, ease: "sine.inOut" }, { opacity: 1, x: 0 })
     .fromTo('.pic4', { opacity: 0, x: 30, duration: 2, ease: "sine.inOut" }, { opacity: 1, x: 0 })
+   }
+}
+
+animationGSAP();
 
 
 
